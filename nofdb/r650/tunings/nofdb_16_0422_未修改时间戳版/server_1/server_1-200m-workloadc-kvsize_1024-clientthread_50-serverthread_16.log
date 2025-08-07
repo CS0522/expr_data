@@ -1,0 +1,148 @@
+
+Node Configure: 
+    Node ID: 1
+    Node IP: 10.10.1.3
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066,50067,50068,50069,50070,50071,50072,50073,50074,50075
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 32
+    KVDB base path: /tmp/nofdb
+
+CPU monitor is enabled
+Stats recorder is enabled
+
+recover: before head 608174080 before tail 608174080
+recover: after_head 608174080 after_tail 608174080
+recover: before head 608176128
+recover: after_head 608176128
+recover: before head 608372736
+recover: after_head 608372736
+recover: before head 608569344
+recover: after_head 608569344
+RocksDB opened at: /tmp/nofdb0
+NoFDBKVS No.0 initialized, DB path: /tmp/nofdb0
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0421 22:28:17.708377 410825 rdma_helper.cpp:447] RDMA device: mlx5_2
+I0421 22:28:17.708459 410825 rdma_helper.cpp:449] RDMA LID: 0
+I0421 22:28:17.709771 410825 rdma_helper.cpp:454] RDMA GID Index: 3
+I0421 22:28:17.710858 410825 block_pool.cpp:145] Start extend rdma memory 1024MB
+I0421 22:28:18.520097 410825 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50057.
+I0421 22:28:18.520170 410820 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50052.
+I0421 22:28:18.520238 410829 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50061.
+I0421 22:28:18.520241 410830 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50062.
+I0421 22:28:18.520247 410834 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50066.
+I0421 22:28:18.520282 410827 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50059.
+I0421 22:28:18.520340 410826 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50058.
+I0421 22:28:18.520364 410821 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50053.
+I0421 22:28:18.520375 410831 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50063.
+I0421 22:28:18.520390 410823 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50055.
+I0421 22:28:18.520412 410832 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50064.
+I0421 22:28:18.520437 410819 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50051.
+I0421 22:28:18.520443 410833 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50065.
+I0421 22:28:18.520491 410824 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50056.
+I0421 22:28:18.521202 410828 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50060.
+I0421 22:28:18.520200 410820 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50052 in web browser.
+I0421 22:28:18.520283 410834 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50066 in web browser.
+I0421 22:28:18.520377 410821 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50053 in web browser.
+I0421 22:28:18.520426 410832 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50064 in web browser.
+I0421 22:28:18.521216 410828 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50060 in web browser.
+I0421 22:28:18.520453 410819 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50051 in web browser.
+I0421 22:28:18.520388 410831 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50063 in web browser.
+I0421 22:28:18.520403 410823 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50055 in web browser.
+I0421 22:28:18.520117 410825 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50057 in web browser.
+I0421 22:28:18.520273 410830 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50062 in web browser.
+I0421 22:28:18.521343 410822 server.cpp:1113] Server[nofdb::DBServiceImpl] is serving on port=50054.
+NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+I0421 22:28:18.520505 410824 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50056 in web browser.
+I0421 22:28:18.520295 410827 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50059 in web browser.
+NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053NoFDBKVS No.
+NoFDBKVS No.0 -- Server No.I0421 22:28:18.520354 410826 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50058 in web browser.
+NoFDBKVS No.NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+I0421 22:28:18.520260 410829 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50061 in web browser.
+NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+I0421 22:28:18.520466 410833 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50065 in web browser.
+NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+I0421 22:28:18.521456 410822 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50054 in web browser.
+NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+0 -- Server No.13 is listening on 0.0.0.0:50064
+NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+5 is listening on 0.0.0.0:50056
+0 -- Server No.12 is listening on 0.0.0.0:50063
+NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+NoFDBKVS No.0 -- Server No.7 is bound to core 7
+NoFDBKVS No.0 -- Server No.8 is bound to core 6
+NoFDBKVS No.0 -- Server No.10 is bound to core 9
+NoFDBKVS No.0 -- Server No.14 is bound to core 8
+NoFDBKVS No.0 -- Server No.1 is bound to core 4
+NoFDBKVS No.0 -- Server No.3 is bound to core 11
+NoFDBKVS No.0 -- Server No.0 is bound to core 12
+NoFDBKVS No.0 -- Server No.5 is bound to core NoFDBKVS No.15
+0 -- Server No.13 is bound to core 10
+NoFDBKVS No.NoFDBKVS No.NoFDBKVS No.0 -- Server No.11 is bound to core 18
+0 -- Server No.6 is bound to core 13
+NoFDBKVS No.0 -- Server No.2 is bound to core 5
+NoFDBKVS No.0 -- Server No.12 is bound to core 16
+NoFDBKVS No.0 -- Server No.4 is bound to core 14
+NoFDBKVS No.0 -- Server No.9 is bound to core 19
+0 -- Server No.15 is bound to core 17
+Node No.1 Configure Table is generated
+I0421 22:28:18.623072 410795 server.cpp:1113] Server[nofdb::NoFDBMaintainer] is serving on port=50050.
+I0421 22:28:18.623085 410795 server.cpp:1116] Check out http://node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50050 in web browser.
+Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 16669641
+Total bytes: 17069714432
+Avg latency (us): 584.91, P90 (us): 185.33, P99 (us): 16322.91, P99.9 (us): 44968.17
+Avg CPU utilization (percent): 1876.17
+Eplased time (sec): 623.65
+Throughput (MB/s): 26.10
+QPS (k): 26.73
+KV Cache miss: 0
+
+===== Interval =====
+
+Maintainer received STOP signal
+CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 14532461
+Total bytes: 14881242112
+Avg latency (us): 3.11, P90 (us): 5.20, P99 (us): 14.97, P99.9 (us):  32.04
+Avg CPU utilization (percent): 2023.10
+Eplased time (sec): 76.34
+Throughput (MB/s): 185.90
+QPS (k): 190.36
+KV Cache miss: 0
+
+===== Interval =====
+
+NoFDBKVS No.NoFDBKVS No.NoFDBKVS No.0 -- Server No.600NoFDBKVS No.NoFDBKVS No.NoFDBKVS No.0 -- Server No. -- Server No.0NoFDBKVS No.0 -- Server No. is shutting down......15
+20 is shutting down...... -- Server No.NoFDBKVS No.NoFDBKVS No.NoFDBKVS No.0 -- Server No.13 is shutting down......
+ is shutting down......NoFDBKVS No. is shutting down......
+NoFDBKVS No.0 -- Server No.4 is shutting down......
+0 -- Server No.9 is shutting down......
+NoFDBKVS No.0 -- Server No.0 is shutting down......
+ -- Server No.3 is shutting down......
+
+
+NoFDBKVS No.0 -- Server No.7 is shutting down......
+NoFDBKVS No.0 -- Server No.14 is shutting down......
+NoFDBKVS No.0 -- Server No.10 is shutting down......
+0 -- Server No.12 is shutting down......
+8 is shutting down......
+0 -- Server No.15 is shutting down......
+Stats recorder is shutting down......
+ -- Server No.11 is shutting down......
+NoFDBKVS No.0 is shutting down......
+Maintainer is shutting down......
+I0421 22:40:18.638837 411001 server.cpp:1173] Server[nofdb::NoFDBMaintainer] is going to quit
+In deconstructor: Maintainer is shutting down......

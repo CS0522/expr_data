@@ -1,0 +1,8 @@
+root       25569  0.0  0.0  12008  4616 ?        S    09:50   0:00 sudo cgexec -g cpuset:rubble-cpu -g memory:rubble-mem ./db_node 50050 10.10.1.3:50050 0 0 3 10.10.1.2:50050
+root       25570  183  0.2 2035792 609336 ?      Sl   09:50  10:32 ./db_node 50050 10.10.1.3:50050 0 0 3 10.10.1.2:50050
+root       25625  0.0  0.0  12008  4644 ?        S    09:50   0:00 sudo cgexec -g cpuset:rubble-cpu -g memory:rubble-mem ./db_node 50051 10.10.1.1:50040 1 2 3 10.10.1.3:50051
+root       25626 61.3  0.2 2562584 705356 ?      Sl   09:50   3:30 ./db_node 50051 10.10.1.1:50040 1 2 3 10.10.1.3:50051
+root       25682  0.0  0.0  12016  4736 ?        S    09:50   0:00 sudo cgexec -g cpuset:rubble-cpu -g memory:rubble-mem ./db_node 50052 10.10.1.3:50052 2 1 3 10.10.1.4:50052
+root       25683 60.6  0.2 2629708 672408 ?      Sl   09:50   3:28 ./db_node 50052 10.10.1.3:50052 2 1 3 10.10.1.4:50052
+root       27896  0.0  0.0   9492  3216 ?        Ss   09:56   0:00 bash -c cd /mnt/data/rocksdb/rubble; ps aux | grep -E './db_node' > pids.out; exit 0
+root       27898  0.0  0.0   9036  2464 ?        S    09:56   0:00 grep -E ./db_node

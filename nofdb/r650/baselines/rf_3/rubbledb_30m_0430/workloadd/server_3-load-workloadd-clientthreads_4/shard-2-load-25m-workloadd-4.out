@@ -1,0 +1,14 @@
+primary addr: 10.10.1.4:50052
+number of cf: 1
+is_rubble: 1
+is_primary: 1
+is_tail: 0
+remote sst dir: /mnt/remote-sst/shard-2
+remote sst dirs: /mnt/remote-sst/node-1/shard-2
+remote sst dirs: /mnt/remote-sst/node-2/shard-2
+[info log fname] /mnt/data/db/shard-2/db/2_primary_log
+[sst map log fname] /mnt/data/db/shard-2/db/2_primary_sst_map_log
+write_buffer_size: 67108864
+target_file_size_base: 67108864
+target address : 10.10.1.2:50052
+Server listening on 0.0.0.0:50052

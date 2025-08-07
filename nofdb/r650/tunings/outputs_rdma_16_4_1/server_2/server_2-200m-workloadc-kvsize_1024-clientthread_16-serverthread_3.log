@@ -1,0 +1,86 @@
+
+Node Configure: 
+    Node ID: 2
+    Node IP: 10.10.1.4
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 3
+    CPU cores num: 8
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+get addr_0, ip_10.10.1.2
+get addr_1, ip_10.10.1.3
+recover: before head 1216348160 before tail 1216348160
+recover: after_head 1216348160 after_tail 1216348160
+recover: before head 1216350208
+recover: after_head 1216350208
+recover: before head 1216546816
+recover: after_head 1216546816
+recover: before head 1216743424
+recover: after_head 1216743424
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 2
+[INFO] Tagged worker 0 is bound to core 4
+[INFO] Tagged worker 1 is bound to core 5
+[INFO] Tagged worker 3 is bound to core 6
+[INFO] Tagged worker 2 is bound to core 7
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] Node No.2 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 66664813
+Total bytes: 68264768512
+Avg DB latency (us): 101.43, P90 (us): 174.83, P99 (us): 180.48, P99.9 (us): 749.40
+Avg process latency (us): 101.45, P90 (us): 174.85, P99 (us): 180.50, P99.9 (us): 749.43
+Avg CPU utilization (percent): 494.04
+Eplased time (sec): 8125.24
+Throughput (MB/s): 8.01
+QPS (k): 8.20
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 77441410
+Total bytes: 79300003840
+Avg DB latency (us): 1.53, P90 (us): 4.68, P99 (us): 6.76, P99.9 (us):   8.42
+Avg process latency (us): 1.55, P90 (us): 4.70, P99 (us): 6.78, P99.9 (us):   8.44
+Avg CPU utilization (percent): 508.59
+Eplased time (sec): 615.52
+Throughput (MB/s): 122.87
+QPS (k): 125.81
+KV Cache miss: 0
+
+===== Stage End =====
+
+double free or corruption (fasttop)

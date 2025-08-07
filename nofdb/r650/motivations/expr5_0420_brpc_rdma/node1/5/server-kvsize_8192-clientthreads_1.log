@@ -1,0 +1,36 @@
+Enable statistics: 1
+Rocksdb opened: /mnt/motivation
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0419 15:06:01.816220 26368 rdma_helper.cpp:447] RDMA device: mlx5_2
+I0419 15:06:01.816252 26368 rdma_helper.cpp:449] RDMA LID: 0
+I0419 15:06:01.817516 26368 rdma_helper.cpp:454] RDMA GID Index: 3
+I0419 15:06:01.818150 26368 block_pool.cpp:145] Start extend rdma memory 1024MB
+I0419 15:06:02.561398 26368 server.cpp:1113] Server[test::PerfTestImpl] is serving on port=50051.
+I0419 15:06:02.561416 26368 server.cpp:1116] Check out http://node1.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50051 in web browser.
+Server listening on 10.10.1.2:50051
+
+Timer is reset
+
+===== Load Statistics: 10.10.1.2:50051
+Total requests: 3276798
+Total bytes: 26843529216
+Avg latency (us): 14.02, P90 (us): 16.90, P99 (us): 24.69, P99.9 (us):  36.05
+Eplased time (sec): 189.30
+Throughput (MB/s): 135.23
+QPS (k): 17.31
+Avg CPU utilization (percent): 181.99
+
+Timer is reset
+
+===== Transaction Statistics: 10.10.1.2:50051
+I0419 15:09:29.567368 26544 server.cpp:1173] Server[test::PerfTestImpl] is going to quit
+Total requests: 49998
+Total bytes: 409583616
+Avg latency (us): 13.12, P90 (us): 15.63, P99 (us): 19.24, P99.9 (us):  30.27
+Eplased time (sec): 2.90
+Throughput (MB/s): 134.61
+QPS (k): 17.23
+Avg CPU utilization (percent): 162.96
+
+RocksDB Server: 10.10.1.2:50051 is shutting down......
+

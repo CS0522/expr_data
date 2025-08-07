@@ -1,0 +1,17 @@
+===== Load Statistics:
+Total requests: 49999998
+Total bytes: 51199997952
+Avg DB latency (us): 94.10, P90 (us): 141.85, P99 (us): 248.66, P99.9 (us): 537.83
+Avg process latency (us): 357.96, P90 (us): 968.06, P99 (us): 1337.71, P99.9 (us): 1727.66
+Avg CPU utilization (percent): 1061.77
+Eplased time (sec): 1116.73
+Throughput (MB/s): 43.72
+QPS (k): 44.77
+KV Cache miss: 0
+
+---------- RPC REPLICA STATISTICS ----------
+Avg all replicas latency (us): 886.47, P90 (us): 1155.21, P99 (us): 1500.80, P99.9 (us): 2071.01
+Avg local DB latency (us): 95.03, P90 (us): 142.69, P99 (us): 248.34, P99.9 (us): 542.13
+Avg send latency (us): 3994216294841888.00, P90 (us): 9223372036854258.00, P99 (us): 9223372036854720.00, P99.9 (us): 9223372036854770.00
+Avg receive latency (us): 4936327089262786.00, P90 (us): 9223372036854432.00, P99 (us): 9223372036854704.00, P99.9 (us): 9223372036854768.00
+Avg remote process latency (us): 178.42

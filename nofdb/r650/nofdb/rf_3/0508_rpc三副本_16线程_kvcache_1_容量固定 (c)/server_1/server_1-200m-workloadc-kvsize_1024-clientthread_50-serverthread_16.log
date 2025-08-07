@@ -1,0 +1,103 @@
+
+Node Configure: 
+    Node ID: 1
+    Node IP: 10.10.1.3
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 20
+    KVDB base path: /tmp/nofdb
+
+[INFO] Using RPC to make replicas
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+Initiator is bound to core 2
+recover: before head 608174080 before tail 608174080
+recover: after_head 608174080 after_tail 608174080
+recover: before head 608176128
+recover: after_head 608176128
+recover: before head 608372736
+recover: after_head 608372736
+recover: before head 608569344
+recover: after_head 608569344
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 1
+[INFO] NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+[INFO] NoFDBKVS No.0 -- Server No.5 is listening on 0.0.0.0:50056
+[INFO] NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+[INFO] NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+[INFO] NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+[INFO] NoFDBKVS No.0 -- Server No.13 is listening on 0.0.0.0:50064
+[INFO] NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+[INFO] NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+[INFO] NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.12 is listening on 0.0.0.0:50063
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+[INFO] Node No.1 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 49999998
+Total bytes: 51199997952
+Avg DB latency (us): 265.05, P90 (us): 158.38, P99 (us): 366.48, P99.9 (us): 18768.88
+Avg process latency (us): 460.50, P90 (us): 168.81, P99 (us): 437.68, P99.9 (us): 26361.08
+Avg CPU utilization (percent): 786.50
+Eplased time (sec): 913.48
+Throughput (MB/s): 53.45
+QPS (k): 54.74
+KV Cache miss: 0
+
+===== Stage End =====
+
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 14533423
+Total bytes: 14882225152
+Avg DB latency (us): 197.46, P90 (us): 136.47, P99 (us): 197.18, P99.9 (us): 201.41
+Avg process latency (us): 421.79, P90 (us): 308.93, P99 (us): 548.74, P99.9 (us): 817.82
+Avg CPU utilization (percent): 275.39
+Eplased time (sec): 377.81
+Throughput (MB/s): 37.57
+QPS (k): 38.47
+KV Cache miss: 14086721
+
+===== Stage End =====
+
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 is shutting down......
+[INFO] Maintainer is shutting down......

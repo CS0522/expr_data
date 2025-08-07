@@ -1,0 +1,28 @@
+Enable statistics: 1
+Rocksdb opened: /mnt/motivation
+Server listening on 0.0.0.0:50051
+
+Timer is reset
+
+===== Load Statistics: 0.0.0.0:50051
+Total requests: 26214398
+Total bytes: 26843543552
+Avg latency (us): 71.42, P90 (us): 80.44, P99 (us): 100.54, P99.9 (us): 236.56
+Eplased time (sec): 5777.37
+Throughput (MB/s): 4.43
+QPS (k): 4.54
+Avg CPU utilization (percent): 166.86
+
+Timer is reset
+
+===== Transaction Statistics: 0.0.0.0:50051
+Total requests: 4998
+Total bytes: 5117952
+Avg latency (us): 70.45, P90 (us): 79.52, P99 (us): 92.75, P99.9 (us): 111.02
+Eplased time (sec): 1.10
+Throughput (MB/s): 4.42
+QPS (k): 4.53
+Avg CPU utilization (percent): 158.14
+
+RocksDB Server: 0.0.0.0:50051 is shutting down......
+

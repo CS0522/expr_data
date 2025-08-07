@@ -1,0 +1,173 @@
+
+Node Configure: 
+    Node ID: 1
+    Node IP: 10.10.1.3
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066,50067,50068,50069,50070,50071,50072,50073,50074,50075,50076,50077,50078,50079,50080,50081,50082
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 32
+    CPU cores num: 36
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+get addr_0, ip_10.10.1.4
+get addr_1, ip_10.10.1.2
+Initiator is bound to core 2
+recover: before head 608174080 before tail 608174080
+recover: after_head 608174080 after_tail 608174080
+recover: before head 608176128
+recover: after_head 608176128
+recover: before head 608372736
+recover: after_head 608372736
+recover: before head 608569344
+recover: after_head 608569344
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 1
+[INFO] Tagged worker 2 is bound to core 4
+[INFO] Tagged worker 4 is bound to core 6
+[INFO] Tagged worker 3 is bound to core 5
+[INFO] Tagged worker 0 is bound to core 8
+[INFO] Tagged worker 6 is bound to core 10
+[INFO] Tagged worker 5 is bound to core 9
+[INFO] Tagged worker 1 is bound to core 7
+[INFO] Tagged worker 7 is bound to core 12
+[INFO] Tagged worker 8 is bound to core 11
+[INFO] Tagged worker 11 is bound to core 14
+[INFO] Tagged worker 10 is bound to core 13
+[INFO] Tagged worker 12 is bound to core 15
+[INFO] Tagged worker 13 is bound to core 16
+[INFO] Tagged worker 9 is bound to core 17
+[INFO] Tagged worker 14 is bound to core 18
+[INFO] Tagged worker 16 is bound to core 19
+[INFO] Tagged worker 15 is bound to core 20
+[INFO] Tagged worker 17 is bound to core 22
+[INFO] Tagged worker 18 is bound to core 21
+[INFO] Tagged worker 19 is bound to core 23
+[INFO] Tagged worker 20 is bound to core 24
+[INFO] Tagged worker 21 is bound to core 25
+[INFO] Tagged worker 22 is bound to core 26
+[INFO] Tagged worker 24 is bound to core 28
+[INFO] Tagged worker 23 is bound to core 27
+[INFO] Tagged worker 26 is bound to core 30
+[INFO] Tagged worker 25 is bound to core 29
+[INFO] Tagged worker 27 is bound to core 31
+[INFO] Tagged worker 28 is bound to core 32
+[INFO] Tagged worker 30 is bound to core 34
+[INFO] Tagged worker 29 is bound to core 33
+[INFO] Tagged worker 32 is bound to core 35
+[INFO] Tagged worker 31 is bound to core 36
+[INFO] NoFDBKVS No.0 -- Server No.26 is listening on 0.0.0.0:50077
+[INFO] NoFDBKVS No.0 -- Server No.21 is listening on 0.0.0.0:50072
+[INFO] NoFDBKVS No.0 -- Server No.17 is listening on 0.0.0.0:50068
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.29 is listening on 0.0.0.0:50080
+[INFO] NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+[INFO] NoFDBKVS No.0 -- Server No.28 is listening on 0.0.0.0:50079
+[INFO] NoFDBKVS No.0 -- Server No.24 is listening on 0.0.0.0:50075
+[INFO] NoFDBKVS No.0 -- Server No.27 is listening on 0.0.0.0:50078
+[INFO] NoFDBKVS No.0 -- Server No.25 is listening on 0.0.0.0:50076
+[INFO] NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+[INFO] NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+[INFO] NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+[INFO] NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+[INFO] NoFDBKVS No.0 -- Server No.5 is listening on 0.0.0.0:50056
+[INFO] NoFDBKVS No.0 -- Server No.18 is listening on 0.0.0.0:50069
+[INFO] NoFDBKVS No.0 -- Server No.20 is listening on 0.0.0.0:50071
+[INFO] NoFDBKVS No.0 -- Server No.12 is listening on 0.0.0.0:50063
+[INFO] NoFDBKVS No.0 -- Server No.16 is listening on 0.0.0.0:50067
+[INFO] NoFDBKVS No.0 -- Server No.23 is listening on 0.0.0.0:50074
+[INFO] NoFDBKVS No.0 -- Server No.13 is listening on 0.0.0.0:50064
+[INFO] NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+[INFO] NoFDBKVS No.0 -- Server No.19 is listening on 0.0.0.0:50070
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.30 is listening on 0.0.0.0:50081
+[INFO] NoFDBKVS No.0 -- Server No.22 is listening on 0.0.0.0:50073
+[INFO] NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+[INFO] NoFDBKVS No.0 -- Server No.31 is listening on 0.0.0.0:50082
+[INFO] Node No.1 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 16666900
+Total bytes: 17066905600
+Avg DB latency (us): 155.33, P90 (us): 210.55, P99 (us): 246.69, P99.9 (us): 632.04
+Avg process latency (us): 155.41, P90 (us): 210.65, P99 (us): 246.82, P99.9 (us): 632.15
+Avg read latency (us): 0.00, P90 (us): 0.00, P99 (us): 0.00, P99.9 (us):   0.00
+Avg write (insert, update) latency (us): 155.33, P90 (us): 210.55, P99 (us): 246.69, P99.9 (us): 632.04
+Avg CPU utilization (percent): 807.47
+Eplased time (sec): 277.77
+Throughput (MB/s): 58.60
+QPS (k): 60.00
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 16922156
+Total bytes: 17328287744
+Avg DB latency (us): 329.44, P90 (us): 232.91, P99 (us): 725.24, P99.9 (us): 41660.38
+Avg process latency (us): 329.55, P90 (us): 233.05, P99 (us): 725.39, P99.9 (us): 41660.54
+Avg read latency (us): 495.35, P90 (us): 178.39, P99 (us): 2000.53, P99.9 (us): 53465.18
+Avg write (insert, update) latency (us): 163.57, P90 (us): 258.37, P99 (us): 610.68, P99.9 (us): 1870.95
+Avg CPU utilization (percent): 334.59
+Eplased time (sec): 1463.78
+Throughput (MB/s): 11.29
+QPS (k): 11.56
+KV Cache miss: 1515494
+
+===== Stage End =====
+
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.25 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.29 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.26 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.18 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.23 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.21 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.17 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.27 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.31 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.24 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.28 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.22 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.16 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.30 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.20 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.19 is shutting down......
+[INFO] NoFDBKVS No.0 is shutting down......
+INFO: Disconnect id_0, is_server_1
+INFO: Disconnect id_1, is_server_0
+INFO: Disconnect id_1, is_server_1
+INFO: Disconnect id_0, is_server_0
+[INFO] Maintainer is shutting down......

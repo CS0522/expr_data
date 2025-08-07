@@ -1,0 +1,3482 @@
+Linux 5.4.0-205-generic (node2.motivation-test.nof-rep-pg0.clemson.cloudlab.us) 	05/01/2025 	_x86_64_	(144 CPU)
+
+
+05/01/2025 04:26:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.15    0.00    0.22    0.00    0.00   99.62
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         1.00         0.00         4.00         0.00          0          4          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00        20.00         0.00         0.00         20          0          0
+
+
+05/01/2025 04:26:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.44    0.00    0.13    1.15    0.00   98.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     20970.00    106335.00         0.00         0.00     106335          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.18    1.87    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33967.00    172252.00         0.00         0.00     172252          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.71    0.00    0.18    1.86    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33778.00    171314.50        84.00         0.00     171314         84          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda             322.00         0.00      1736.00         0.00          0       1736          0
+
+
+05/01/2025 04:27:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.69    0.00    0.21    1.77    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32225.00    163432.50         0.00         0.00     163432          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.17    1.85    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33609.00    170479.50         0.00         0.00     170479          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.70    0.00    0.22    1.84    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33320.00    168982.00         0.00         0.00     168982          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.15    1.75    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31903.00    161800.50         0.00         0.00     161800          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.15    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33383.00    169318.00        28.00         0.00     169318         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               3.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:27:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.21    1.82    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33032.00    167513.00         0.00         0.00     167513          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.69    0.00    0.16    1.74    0.00   97.41
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31651.00    160545.50         0.00         0.00     160545          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.17    1.83    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33132.00    168050.50         0.00         0.00     168050          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.15    1.73    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31564.00    160079.00         0.00         0.00     160079          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.14    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32923.00    167018.50        28.00         0.00     167018         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:27:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.69    0.00    0.17    1.82    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32939.00    167116.00         0.00         0.00     167116          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.73    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31288.00    158756.50       284.00         0.00     158756        284          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:27:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.09    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33064.00    167802.50         0.00         0.00     167802          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.82    0.00   97.18
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33028.00    167576.00         0.00         0.00     167576          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.74    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31608.00    160316.00        28.00         0.00     160316         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.14    1.81    0.00   97.16
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32992.00    167334.50         0.00         0.00     167334          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.79    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32434.00    164526.50        20.00         0.00     164526         20          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              43.00         0.00       236.00         0.00          0        236          0
+
+
+05/01/2025 04:27:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.15    1.74    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31672.00    160742.50         0.00         0.00     160742          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.16    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32812.00    166426.00         0.00         0.00     166426          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.72    0.00   97.37
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31309.00    158815.00        36.00         0.00     158815         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32665.00    165718.50         0.00         0.00     165718          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.80    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32579.00    165170.00      4036.00         0.00     165170       4036          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              34.00         0.00       164.00         0.00          0        164          0
+
+
+05/01/2025 04:27:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.10    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31557.00    160066.00         0.00         0.00     160066          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.15    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32941.00    167057.00         0.00         0.00     167057          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        24.00         0.00          0         24          0
+
+
+05/01/2025 04:27:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.12    1.81    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32941.00    167089.00        36.00         0.00     167089         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.16    1.72    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31123.00    157874.00         0.00         0.00     157874          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.91    0.00    0.17    1.80    0.00   97.13
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32604.00    165387.00         0.00         0.00     165387          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.73    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31340.00    158949.00         0.00         0.00     158949          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.80    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32789.00    166302.50         0.00         0.00     166302          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               4.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:27:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32973.00    167241.00        28.00         0.00     167241         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:27:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.10    1.73    0.00   97.38
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31543.00    159987.50         0.00         0.00     159987          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33076.00    167814.00         0.00         0.00     167814          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33007.00    167390.00         0.00         0.00     167390          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.15    1.74    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31547.00    160026.50         0.00         0.00     160026          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.80    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32713.00    165854.00        28.00         0.00     165854         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              42.00         0.00       212.00         0.00          0        212          0
+
+
+05/01/2025 04:27:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.72    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31303.00    158769.00         0.00         0.00     158769          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.14    1.81    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32809.00    166463.00         0.00         0.00     166463          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.80    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32971.00    167207.50         0.00         0.00     167207          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.09    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31537.00    159999.50         0.00         0.00     159999          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.10    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32812.00    166442.00         0.00         0.00     166442          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.14    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32773.00    166177.00        28.00         0.00     166177         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:27:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.72    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31108.00    157792.50         0.00         0.00     157792          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:27:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.70    0.00    0.17    1.79    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32679.00    165778.50         0.00         0.00     165778          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.13    1.76    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32103.00    162824.50         0.00         0.00     162824          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:46 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.75    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31853.00    161606.50         0.00         0.00     161606          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:47 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.14    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32782.00    166303.50        32.00         0.00     166303         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:48 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.94    0.00    0.12    1.73    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31498.00    159754.50         0.00         0.00     159754          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:27:49 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.15    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32928.00    166951.50      4464.00         0.00     166951       4464          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:27:50 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.81    0.00   97.18
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32898.00    166875.50         0.00         0.00     166875          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:51 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.15    1.72    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31334.00    158916.50         0.00         0.00     158916          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:52 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32685.00    165792.00        40.00         0.00     165792         40          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:53 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.17    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32925.00    167027.50         0.00         0.00     167027          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:54 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.13    1.72    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31359.00    159053.00         0.00         0.00     159053          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:27:55 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.14    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33048.00    167620.00         0.00         0.00     167620          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:27:56 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.11    1.74    0.00   97.35
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31636.00    160455.50         0.00         0.00     160455          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:57 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.15    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32976.00    167208.50        32.00         0.00     167208         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33086.00    167837.50         0.00         0.00     167837          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:27:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.13    1.74    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31585.00    160275.50         0.00         0.00     160275          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.15    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33040.00    167553.00         0.00         0.00     167553          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:28:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.82    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33086.00    167797.50         0.00         0.00     167797          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:28:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.17    1.73    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31413.00    159345.00        28.00         0.00     159345         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32854.00    166612.00         0.00         0.00     166612          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.13    1.74    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31572.00    160127.50         0.00         0.00     160127          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32923.00    167046.50         0.00         0.00     167046          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.11    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32991.00    167289.00        28.00         0.00     167289         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:28:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.74    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31431.00    159367.50         0.00         0.00     159367          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:28:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32928.00    167082.00         0.00         0.00     167082          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33015.00    167496.00         0.00         0.00     167496          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31577.00    160159.00         0.00         0.00     160159          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.15    1.81    0.00   97.18
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32744.00    166152.50        28.00         0.00     166152         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.12    1.72    0.00   97.35
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31218.00    158387.00         0.00         0.00     158387          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:28:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32727.00    165960.00         0.00         0.00     165960          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:28:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.17    1.80    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32854.00    166641.00         0.00         0.00     166641          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.73    0.00   97.37
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31493.00    159743.00         0.00         0.00     159743          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.13    1.82    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32971.00    167211.00        28.00         0.00     167211         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.14    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32886.00    166842.50         0.00         0.00     166842          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.10    1.73    0.00   97.40
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31486.00    159741.00         0.00         0.00     159741          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:28:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.15    1.82    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33027.00    167545.50         0.00         0.00     167545          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              44.00         0.00       236.00         0.00          0        236          0
+
+
+05/01/2025 04:28:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.17    1.76    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31981.00    162107.00      4548.00         0.00     162107       4548          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.77    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32062.00    162628.00        32.00         0.00     162628         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.11    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32797.00    166333.50         0.00         0.00     166333          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.73    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31471.00    159623.50         0.00         0.00     159623          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.10    1.80    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32780.00    166241.00         0.00         0.00     166241          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               7.00         0.00        52.00         0.00          0         52          0
+
+
+05/01/2025 04:28:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.83    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32992.00    167270.50       908.00         0.00     167270        908          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.13    1.74    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31453.00    159530.00        36.00         0.00     159530         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.10    1.80    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32654.00    165641.00         0.00         0.00     165641          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32848.00    166590.00         0.00         0.00     166590          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.14    1.73    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31363.00    159128.00         0.00         0.00     159128          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.12    1.80    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32831.00    166499.50         0.00         0.00     166499          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:28:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.11    1.73    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31481.00    159681.50        28.00         0.00     159681         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:28:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32775.00    166192.50         0.00         0.00     166192          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.15    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32986.00    167314.00         0.00         0.00     167314          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.10    1.74    0.00   97.39
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31589.00    160296.00         0.00         0.00     160296          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.12    1.80    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32956.00    167205.50         0.00         0.00     167205          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.11    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32977.00    167260.00        16.00         0.00     167260         16          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              61.00         0.00       300.00         0.00          0        300          0
+
+
+05/01/2025 04:28:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.10    1.73    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31459.00    159545.00         0.00         0.00     159545          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.12    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33035.00    167556.50         0.00         0.00     167556          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.10    1.74    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31551.00    159956.00         0.00         0.00     159956          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.80    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32794.00    166366.00         0.00         0.00     166366          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32933.00    167005.50        28.00         0.00     167005         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               7.00         0.00        36.00         0.00          0         36          0
+
+
+05/01/2025 04:28:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.73    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31418.00    159341.00         0.00         0.00     159341          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.16    1.82    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32918.00    166989.00         0.00         0.00     166989          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.80    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32981.00    167272.00         0.00         0.00     167272          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.12    1.73    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31623.00    160436.00         0.00         0.00     160436          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:46 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.10    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32861.00    166652.00      4472.00         0.00     166652       4472          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              42.00         0.00       168.00         0.00          0        168          0
+
+
+05/01/2025 04:28:47 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.11    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31433.00    159449.50         0.00         0.00     159449          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:28:48 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32865.00    166731.00         0.00         0.00     166731          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:49 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32942.00    167109.00         0.00         0.00     167109          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:50 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.17    1.72    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31455.00    159547.50         0.00         0.00     159547          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:51 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.10    1.82    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32936.00    167025.50        28.00         0.00     167025         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:52 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.16    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33023.00    167504.50         0.00         0.00     167504          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               5.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:28:53 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31509.00    159800.50         0.00         0.00     159800          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:54 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33096.00    167964.50         0.00         0.00     167964          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:55 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.14    1.77    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32198.00    163301.50         0.00         0.00     163301          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:56 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.14    1.77    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32264.00    163645.00        32.00         0.00     163645         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:28:57 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33065.00    167736.50         0.00         0.00     167736          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:28:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.13    1.73    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31411.00    159292.50         0.00         0.00     159292          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:28:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.15    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32978.00    167288.50         0.00         0.00     167288          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32994.00    167376.50         0.00         0.00     167376          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.13    1.73    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31368.00    159039.00        28.00         0.00     159039         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.17    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32782.00    166321.50         0.00         0.00     166321          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.15    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32893.00    166794.50         0.00         0.00     166794          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.73    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31409.00    159280.00         0.00         0.00     159280          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              43.00         0.00       172.00         0.00          0        172          0
+
+
+05/01/2025 04:29:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.15    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32861.00    166710.50         0.00         0.00     166710          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.91    0.00    0.14    1.74    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31438.00    159435.00        28.00         0.00     159435         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.13    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32923.00    167051.50         0.00         0.00     167051          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.15    1.80    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32636.00    165571.00         0.00         0.00     165571          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:29:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.15    1.73    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31349.00    159061.00         0.00         0.00     159061          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.81    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32800.00    166378.00         0.00         0.00     166378          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               5.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:29:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.11    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32876.00    166776.00        16.00         0.00     166776         16          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.12    1.73    0.00   97.36
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31478.00    159658.50         0.00         0.00     159658          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32764.00    166214.00         0.00         0.00     166214          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.09    1.73    0.00   97.35
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31476.00    159655.00         0.00         0.00     159655          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.12    1.81    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32987.00    167332.50         0.00         0.00     167332          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32780.00    166359.00        28.00         0.00     166359         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:29:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.16    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31446.00    159383.50      5516.00         0.00     159383       5516          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.14    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32817.00    166465.00         0.00         0.00     166465          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.82    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33021.00    167426.00         0.00         0.00     167426          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.14    1.72    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31376.00    159183.00         0.00         0.00     159183          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:29:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32857.00    166658.50        36.00         0.00     166658         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31526.00    159943.00         0.00         0.00     159943          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              47.00         0.00       252.00         0.00          0        252          0
+
+
+05/01/2025 04:29:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.17    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32766.00    166202.00         0.00         0.00     166202          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.10    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33081.00    167764.00         0.00         0.00     167764          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.10    1.73    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31529.00    159940.00         0.00         0.00     159940          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.17    1.81    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32818.00    166425.50        28.00         0.00     166425         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32988.00    167310.00        12.00         0.00     167310         12          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31590.00    160222.50         0.00         0.00     160222          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:29:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.82    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32937.00    167066.50         0.00         0.00     167066          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.13    1.79    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32501.00    164860.50         0.00         0.00     164860          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.10    1.76    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32034.00    162487.00        36.00         0.00     162487         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.15    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33009.00    167441.00         0.00         0.00     167441          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        36.00         0.00          0         36          0
+
+
+05/01/2025 04:29:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.73    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31475.00    159680.00         0.00         0.00     159680          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.16    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32946.00    167167.00         0.00         0.00     167167          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              79.00         0.00       352.00         0.00          0        352          0
+
+
+05/01/2025 04:29:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.14    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32937.00    167132.50         0.00         0.00     167132          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.09    1.74    0.00   97.36
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31509.00    159842.50        28.00         0.00     159842         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.82    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32994.00    167357.00         0.00         0.00     167357          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32926.00    167035.00         0.00         0.00     167035          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        32.00         0.00          0         32          0
+
+
+05/01/2025 04:29:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.74    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31560.00    160115.00         0.00         0.00     160115          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               6.00         0.00        24.00         0.00          0         24          0
+
+
+05/01/2025 04:29:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.14    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32882.00    166800.00         0.00         0.00     166800          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.11    1.74    0.00   97.35
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31439.00    159441.50        28.00         0.00     159441         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.14    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32902.00    166878.50         0.00         0.00     166878          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.11    1.83    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32878.00    166701.50      4588.00         0.00     166701       4588          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.11    1.73    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31488.00    159702.00         0.00         0.00     159702          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.79    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32837.00    166564.00         0.00         0.00     166564          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:46 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32963.00    167261.00        44.00         0.00     167261         44          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:47 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.13    1.73    0.00   97.36
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31461.00    159570.00         0.00         0.00     159570          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:29:48 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.09    1.82    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33011.00    167452.50         0.00         0.00     167452          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:49 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.73    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31385.00    159145.50         0.00         0.00     159145          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:50 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.13    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32848.00    166606.00         0.00         0.00     166606          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:51 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32819.00    166479.00        28.00         0.00     166479         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:52 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.73    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31446.00    159463.50         0.00         0.00     159463          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:53 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.15    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33009.00    167421.50         0.00         0.00     167421          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:29:54 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.09    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33018.00    167457.50         0.00         0.00     167457          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:55 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31558.00    160109.50         0.00         0.00     160109          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:56 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.10    1.82    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33043.00    167528.00        28.00         0.00     167528         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:29:57 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.10    1.73    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31449.00    159489.50         0.00         0.00     159489          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.10    1.81    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32817.00    166432.00         0.00         0.00     166432          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:29:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.12    1.82    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33036.00    167574.50         0.00         0.00     167574          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:30:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.16    1.73    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31441.00    159467.50         0.00         0.00     159467          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.16    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32893.00    166819.50        32.00         0.00     166819         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.11    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32867.00    166757.00         0.00         0.00     166757          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        48.00         0.00          0         48          0
+
+
+05/01/2025 04:30:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.91    0.00    0.11    1.73    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31428.00    159427.00         0.00         0.00     159427          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33072.00    167731.00         0.00         0.00     167731          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.14    1.74    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31668.00    160664.50         0.00         0.00     160664          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              51.00         0.00       232.00         0.00          0        232          0
+
+
+05/01/2025 04:30:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.14    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32844.00    166614.50        28.00         0.00     166614         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32899.00    166858.00         0.00         0.00     166858          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.15    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31452.00    159563.00         0.00         0.00     159563          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.16    1.81    0.00   97.15
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32890.00    166820.50         0.00         0.00     166820          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.74    0.00    0.13    1.81    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32970.00    167224.00         0.00         0.00     167224          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31620.00    160434.50         0.00         0.00     160434          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:30:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32814.00    166423.00        28.00         0.00     166423         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.12    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32972.00    167293.00         0.00         0.00     167293          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.11    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31466.00    159554.50      5648.00         0.00     159554       5648          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.14    1.82    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32983.00    167287.50         0.00         0.00     167287          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31522.00    159897.00         0.00         0.00     159897          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32968.00    167241.50        36.00         0.00     167241         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               5.00         0.00        24.00         0.00          0         24          0
+
+
+05/01/2025 04:30:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.13    1.82    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33004.00    167373.00         0.00         0.00     167373          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               3.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:30:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31613.00    160352.50        48.00         0.00     160352         48          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.15    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32831.00    166594.00         0.00         0.00     166594          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.83    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33072.00    167752.00         0.00         0.00     167752          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.10    1.73    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31501.00    159798.50        24.00         0.00     159798         24          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              72.00         0.00       352.00         0.00          0        352          0
+
+
+05/01/2025 04:30:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32992.00    167289.00         0.00         0.00     167289          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        36.00         0.00          0         36          0
+
+
+05/01/2025 04:30:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.11    1.74    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31566.00    160150.50         0.00         0.00     160150          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.10    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32995.00    167398.50         0.00         0.00     167398          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.12    1.83    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33101.00    167937.00         0.00         0.00     167937          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.73    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31598.00    160260.50        28.00         0.00     160260         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.82    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32987.00    167311.00         0.00         0.00     167311          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               6.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:30:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.11    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33099.00    167960.00         0.00         0.00     167960          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31537.00    159947.50        12.00         0.00     159947         12          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32963.00    167210.50         0.00         0.00     167210          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31454.00    159523.50        36.00         0.00     159523         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.82    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33037.00    167556.00         0.00         0.00     167556          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.14    1.82    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32993.00    167318.50         0.00         0.00     167318          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              35.00         0.00       164.00         0.00          0        164          0
+
+
+05/01/2025 04:30:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.11    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31297.03    158759.41         0.00         0.00     160347          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.98         0.00        27.72         0.00          0         28          0
+
+
+05/01/2025 04:30:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.14    1.82    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32962.00    167165.50        28.00         0.00     167165         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.82    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33001.00    167424.50         0.00         0.00     167424          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.14    1.73    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31504.00    159863.50         0.00         0.00     159863          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.83    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33110.00    167947.50         0.00         0.00     167947          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.15    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31578.00    160190.00         0.00         0.00     160190          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               4.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:30:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32956.00    167133.50        28.00         0.00     167133         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33004.00    167399.00         0.00         0.00     167399          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.14    1.73    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31496.00    159824.50         0.00         0.00     159824          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.82    0.00   97.15
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33019.00    167465.50         0.00         0.00     167465          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.79    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32739.00    166040.50      4896.00         0.00     166040       4896          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:46 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.13    1.73    0.00   97.37
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31441.00    159490.50        40.00         0.00     159490         40          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:30:47 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.10    1.82    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32891.00    166872.50         0.00         0.00     166872          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:48 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.09    1.73    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31451.00    159579.00         0.00         0.00     159579          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:49 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.09    1.83    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33015.00    167458.00         0.00         0.00     167458          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:50 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32939.00    167073.00       896.00         0.00     167073        896          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:51 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.15    1.73    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31364.00    159042.00        28.00         0.00     159042         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:52 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.14    1.82    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32846.00    166621.50         0.00         0.00     166621          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:30:53 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32946.00    167184.50         0.00         0.00     167184          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:30:54 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31527.00    159902.50         0.00         0.00     159902          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:55 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32820.00    166464.00        36.00         0.00     166464         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:56 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.09    1.79    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32605.00    165405.00        16.00         0.00     165405         16          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:57 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.14    1.75    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31676.00    160641.00         0.00         0.00     160641          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:30:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.12    1.82    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32905.00    166879.50         0.00         0.00     166879          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:30:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.72    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31428.00    159362.00         0.00         0.00     159362          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:31:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32834.00    166512.00         0.00         0.00     166512          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.89    0.00    0.12    1.81    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32850.00    166598.50        32.00         0.00     166598         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.11    1.73    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31480.00    159727.00         0.00         0.00     159727          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.16    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32844.00    166590.50         0.00         0.00     166590          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.17    1.81    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32949.00    167059.50         0.00         0.00     167059          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:31:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.73    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31380.00    159218.00         0.00         0.00     159218          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.81    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32963.00    167202.00        28.00         0.00     167202         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:31:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.94    0.00    0.12    1.74    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31435.00    159421.00         0.00         0.00     159421          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.15    1.81    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32819.00    166466.00         0.00         0.00     166466          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32924.00    167009.50         0.00         0.00     167009          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.12    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31517.00    159906.00         0.00         0.00     159906          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32909.00    166926.00        28.00         0.00     166926         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:31:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32978.00    167321.00         0.00         0.00     167321          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.11    1.73    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31455.00    159599.00         0.00         0.00     159599          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.13    1.82    0.00   97.18
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33003.00    167443.00         0.00         0.00     167443          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.11    1.74    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31518.00    159902.00         0.00         0.00     159902          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:31:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.74    0.00    0.11    1.82    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32765.00    166067.00      5036.00         0.00     166067       5036          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.11    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32862.00    166648.50         0.00         0.00     166648          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               3.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:31:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31414.00    159342.50         0.00         0.00     159342          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.10    1.83    0.00   97.20
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33100.00    167896.00         0.00         0.00     167896          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32960.00    167207.50         0.00         0.00     167207          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.15    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31549.00    160056.50        28.00         0.00     160056         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:31:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.13    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32964.00    167203.50         0.00         0.00     167203          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31462.00    159532.50         0.00         0.00     159532          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              49.00         0.00       260.00         0.00          0        260          0
+
+
+05/01/2025 04:31:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32965.00    167211.00         0.00         0.00     167211          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32996.00    167390.50         0.00         0.00     167390          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.08    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31610.00    160331.50       908.00         0.00     160331        908          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.88    0.00    0.15    1.81    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32876.00    166775.50         0.00         0.00     166775          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.14    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32970.00    167218.50         0.00         0.00     167218          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.13    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31605.00    160314.00         0.00         0.00     160314          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               4.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:31:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33012.00    167439.50         0.00         0.00     167439          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.76    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31880.00    161688.00        72.00         0.00     161688         72          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.14    1.79    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32603.00    165378.00         0.00         0.00     165378          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.82    0.00   97.19
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32917.00    166980.50         0.00         0.00     166980          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.12    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31604.00    160350.50         0.00         0.00     160350          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.82    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32979.00    167271.00         0.00         0.00     167271          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              40.00         0.00       208.00         0.00          0        208          0
+
+
+05/01/2025 04:31:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.17    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33037.00    167565.50        28.00         0.00     167565         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.84    0.00    0.10    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31567.00    160158.50         0.00         0.00     160158          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.74    0.00    0.08    1.83    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33093.00    167883.00         0.00         0.00     167883          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33081.00    167749.00         0.00         0.00     167749          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.15    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31452.00    159483.00         0.00         0.00     159483          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33031.00    167482.00      4636.00         0.00     167482       4636          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               4.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:31:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.76    0.00    0.14    1.75    0.00   97.36
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31561.00    160119.50         0.00         0.00     160119          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.11    1.82    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33062.00    167707.00         0.00         0.00     167707          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.14    1.81    0.00   97.18
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33007.00    167363.00         0.00         0.00     167363          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.72    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31543.00    160055.00         0.00         0.00     160055          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:46 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.15    1.81    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33007.00    167417.00        32.00         0.00     167417         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:47 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.12    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33155.00    168153.00         0.00         0.00     168153          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               4.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:31:48 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.10    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31573.00    160175.00         0.00         0.00     160175          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:49 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32939.00    167065.00         0.00         0.00     167065          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:50 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.12    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31498.00    159723.00         0.00         0.00     159723          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:51 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.81    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32924.00    166930.50        28.00         0.00     166930         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:52 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.11    1.82    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33015.00    167518.50         0.00         0.00     167518          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:53 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31559.00    160114.00         0.00         0.00     160114          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               3.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:31:54 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.81    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32990.00    167280.50         0.00         0.00     167280          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:55 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33090.00    167875.00         0.00         0.00     167875          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:56 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.13    1.74    0.00   97.34
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31604.00    160301.00        28.00         0.00     160301         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:57 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.16    1.81    0.00   97.17
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32957.00    167211.50         0.00         0.00     167211          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:31:58 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.10    1.75    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31635.00    160470.50         0.00         0.00     160470          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               3.00         0.00        16.00         0.00          0         16          0
+
+
+05/01/2025 04:31:59 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.08    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33155.00    168140.50         0.00         0.00     168140          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:00 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33082.00    167811.00         0.00         0.00     167811          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:01 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31622.00    160370.50        32.00         0.00     160370         32          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:02 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.83    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33139.00    168112.50         0.00         0.00     168112          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:03 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.77    0.00    0.15    1.81    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32961.00    167186.50         0.00         0.00     167186          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:04 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.09    1.74    0.00   97.36
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31480.00    159673.50         0.00         0.00     159673          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:32:05 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.13    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32989.00    167348.00         0.00         0.00     167348          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:06 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.16    1.72    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31440.00    159496.50        28.00         0.00     159496         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:32:07 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33026.00    167499.50         0.00         0.00     167499          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:08 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.15    1.82    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32943.00    167159.00         0.00         0.00     167159          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:09 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.14    1.74    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31570.00    160110.50         0.00         0.00     160110          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:10 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.12    1.81    0.00   97.28
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32927.00    167032.50         0.00         0.00     167032          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:11 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.12    1.81    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32838.00    166526.00        16.00         0.00     166526         16          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:32:12 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.79    0.00    0.13    1.74    0.00   97.35
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31352.00    158968.00      5960.00         0.00     158968       5960          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:32:13 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.12    1.83    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32958.00    167169.50         0.00         0.00     167169          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:14 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.11    1.74    0.00   97.30
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31552.00    160009.50         0.00         0.00     160009          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:15 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.83    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32990.00    167346.00         0.00         0.00     167346          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:16 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.13    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33081.00    167835.50        36.00         0.00     167835         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:17 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.11    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31599.00    160320.00        24.00         0.00     160320         24          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               1.00         0.00         4.00         0.00          0          4          0
+
+
+05/01/2025 04:32:18 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.83    0.00   97.22
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33057.00    167711.00         0.00         0.00     167711          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        20.00         0.00          0         20          0
+
+
+05/01/2025 04:32:19 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.13    1.83    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32939.00    167049.00         0.00         0.00     167049          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:20 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.74    0.00   97.31
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31541.00    159960.00         0.00         0.00     159960          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:21 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.75    0.00    0.15    1.83    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32995.00    167312.00        36.00         0.00     167312         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:22 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.82    0.00    0.11    1.78    0.00   97.29
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32180.00    163181.00         0.00         0.00     163181          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:23 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.08    1.79    0.00   97.26
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32414.00    164415.00         0.00         0.00     164415          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              52.00         0.00       292.00         0.00          0        292          0
+
+
+05/01/2025 04:32:24 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.86    0.00    0.15    1.83    0.00   97.16
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33015.00    167559.50         0.00         0.00     167559          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:25 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.80    0.00    0.13    1.74    0.00   97.33
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31637.00    160507.50         0.00         0.00     160507          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:26 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.82    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32961.00    167138.50        28.00         0.00     167138         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:27 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.10    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32818.00    166494.00         0.00         0.00     166494          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:28 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.81    0.00    0.14    1.74    0.00   97.32
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31437.00    159437.50         0.00         0.00     159437          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:29 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.12    1.83    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33067.00    167795.50         0.00         0.00     167795          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:32:30 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.83    0.00    0.10    1.83    0.00   97.24
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33082.00    167804.50         0.00         0.00     167804          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:32:31 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.90    0.00    0.13    1.74    0.00   97.23
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31553.00    160063.00         0.00         0.00     160063          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:32 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.85    0.00    0.11    1.83    0.00   97.21
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     33087.00    167794.50        28.00         0.00     167794         28          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:33 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.87    0.00    0.14    1.74    0.00   97.25
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     31461.00    159549.50        12.00         0.00     159549         12          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:34 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.78    0.00    0.13    1.82    0.00   97.27
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     32930.00    167088.00         0.00         0.00     167088          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:35 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.64    0.00    0.11    1.57    0.00   97.68
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     28569.00    144901.00         0.00         0.00     144901          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        28.00         0.00          0         28          0
+
+
+05/01/2025 04:32:36 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.49    0.00    0.11    1.03    0.00   98.37
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1     18767.00     95208.00         0.00         0.00      95208          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda              38.00         0.00       180.00         0.00          0        180          0
+
+
+05/01/2025 04:32:37 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.02    0.00    0.06    0.01    0.00   99.91
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1       179.00       903.00        36.00         0.00        903         36          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:38 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.01    0.00    0.04    0.00    0.00   99.95
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:39 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.01    0.00    0.06    0.00    0.00   99.94
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:40 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.02    0.00    0.04    0.00    0.00   99.94
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:41 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.02    0.00    0.03    0.00    0.00   99.94
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00        12.00         0.00          0         12          0
+
+
+05/01/2025 04:32:42 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.02    0.00    0.03    0.00    0.00   99.95
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         2.00         0.00        12.00         0.00          0         12          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               2.00         0.00         8.00         0.00          0          8          0
+
+
+05/01/2025 04:32:43 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.01    0.00    0.06    0.00    0.00   99.92
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         3.00         0.00       840.00         0.00          0        840          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:44 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.01    0.00    0.04    0.00    0.00   99.95
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+
+
+05/01/2025 04:32:45 AM
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           0.06    0.00    0.03    0.00    0.00   99.92
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_dscd/s    kB_read    kB_wrtn    kB_dscd
+nvme0c0n1         0.00         0.00         0.00         0.00          0          0          0
+nvme1c1n1         0.00         0.00         0.00         0.00          0          0          0
+sda               0.00         0.00         0.00         0.00          0          0          0
+

@@ -1,0 +1,7 @@
+flush_writers: 1
+concurrent_compactors: 3
+sstable_size: 64
+fieldcount: 10
+fieldlength: 100
+batchsize：1000
+rf：2

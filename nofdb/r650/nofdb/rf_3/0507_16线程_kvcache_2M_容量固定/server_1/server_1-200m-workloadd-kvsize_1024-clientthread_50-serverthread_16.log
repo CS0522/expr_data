@@ -1,0 +1,122 @@
+
+Node Configure: 
+    Node ID: 1
+    Node IP: 10.10.1.3
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 20
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+mlx5_net: Default miss action is not supported.
+get addr_0, ip_10.10.1.4
+get addr_1, ip_10.10.1.2
+Initiator is bound to core 2
+recover: before head 608174080 before tail 608174080
+recover: after_head 608174080 after_tail 608174080
+recover: before head 608176128
+recover: after_head 608176128
+recover: before head 608372736
+recover: after_head 608372736
+recover: before head 608569344
+recover: after_head 608569344
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 1
+[INFO] Tagged worker 0 is bound to core 4
+[INFO] Tagged worker 1 is bound to core 5
+[INFO] Tagged worker 3 is bound to core 6
+[INFO] Tagged worker 2 is bound to core 7
+[INFO] Tagged worker 5 is bound to core 8
+[INFO] Tagged worker 4 is bound to core 9
+[INFO] Tagged worker 7 is bound to core 10
+[INFO] Tagged worker 6 is bound to core 11
+[INFO] Tagged worker 8 is bound to core 12
+[INFO] Tagged worker 9 is bound to core 13
+[INFO] Tagged worker 10 is bound to core 14
+[INFO] Tagged worker 11 is bound to core 15
+[INFO] Tagged worker 12 is bound to core 16
+[INFO] Tagged worker 13 is bound to core 17
+[INFO] Tagged worker 14 is bound to core 18
+[INFO] Tagged worker 16 is bound to core 20
+[INFO] Tagged worker 15 is bound to core 19
+[INFO] NoFDBKVS No.0 -- Server No.12 is listening on 0.0.0.0:50063
+[INFO] NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+[INFO] NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+[INFO] NoFDBKVS No.0 -- Server No.13 is listening on 0.0.0.0:50064
+[INFO] NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+[INFO] NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+[INFO] NoFDBKVS No.0 -- Server No.5 is listening on 0.0.0.0:50056
+[INFO] NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+[INFO] NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+[INFO] NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] Node No.1 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 66664430
+Total bytes: 68264376320
+Avg DB latency (us): 188.20, P90 (us): 216.27, P99 (us): 1012.66, P99.9 (us): 4335.19
+Avg process latency (us): 188.28, P90 (us): 216.36, P99 (us): 1012.74, P99.9 (us): 4335.28
+Avg read latency (us): 0.00, P90 (us): 0.00, P99 (us): 0.00, P99.9 (us):   0.00
+Avg write (insert, update) latency (us): 188.20, P90 (us): 216.27, P99 (us): 1012.66, P99.9 (us): 4335.19
+Avg CPU utilization (percent): 664.08
+Eplased time (sec): 1767.78
+Throughput (MB/s): 36.83
+QPS (k): 37.71
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 73845685
+Total bytes: 75617981440
+Avg DB latency (us): 56.74, P90 (us): 14.71, P99 (us): 257.96, P99.9 (us): 794.06
+Avg process latency (us): 56.84, P90 (us): 14.87, P99 (us): 258.09, P99.9 (us): 794.19
+Avg read latency (us): 51.28, P90 (us): 8.60, P99 (us): 209.53, P99.9 (us): 779.49
+Avg write (insert, update) latency (us): 172.14, P90 (us): 288.25, P99 (us): 570.98, P99.9 (us): 841.87
+Avg CPU utilization (percent): 409.19
+Eplased time (sec): 2187.12
+Throughput (MB/s): 32.97
+QPS (k): 33.76
+KV Cache miss: 2885184
+
+===== Stage End =====
+
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+[INFO] NoFDBKVS No.0 is shutting down......
+INFO: Disconnect id_0, is_server_1
+[INFO] Maintainer is shutting down......

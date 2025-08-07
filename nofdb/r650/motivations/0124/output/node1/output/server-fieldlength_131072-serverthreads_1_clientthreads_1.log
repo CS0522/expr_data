@@ -1,0 +1,31 @@
+[Server Processing Threads Num: 1]
+CPU monitor is enabled
+Stats recorder is enabled
+Rocksdb opened: /mnt/nofdb_data/db
+Server listening on 0.0.0.0:50051
+Server thread 140217210083072 bound to core 0
+
+Timer is reset
+
+===== Load Statistics
+Total requests: 819200
+Total bytes: 107374182400
+Avg latency (us): 124.30, P90 (us): 151.05, P99 (us): 166.85, P99.9 (us): 286.78
+Avg CPU utilization (percent): 304.73
+Eplased time (sec): 446.51
+Throughput (MB/s): 229.33
+QPS (k): 1.83
+
+Timer is reset
+
+===== Transaction Statistics
+Total requests: 1000000
+Total bytes: 131072000000
+Avg latency (us): 433.93, P90 (us): 128.60, P99 (us): 10655.59, P99.9 (us): 20132.37
+Avg CPU utilization (percent): 345.48
+Eplased time (sec): 855.43
+Throughput (MB/s): 146.12
+QPS (k): 1.17
+
+NoFDB Server is shutting down......
+

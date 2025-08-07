@@ -1,0 +1,69 @@
+
+Node Configure: 
+    Node ID: 1
+    Node IP: 10.10.1.3
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 4
+    CPU cores num: 8
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+get addr_0, ip_10.10.1.4
+get addr_1, ip_10.10.1.2
+recover: before head 608174080 before tail 608174080
+recover: after_head 608174080 after_tail 608174080
+recover: before head 608176128
+recover: after_head 608176128
+recover: before head 608372736
+recover: after_head 608372736
+recover: before head 608569344
+recover: after_head 608569344
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 1
+[INFO] Tagged worker 0 is bound to core 4
+[INFO] Tagged worker 1 is bound to core 5
+[INFO] Tagged worker 2 is bound to core 6
+[INFO] Tagged worker 3 is bound to core 7
+[INFO] Tagged worker 4 is bound to core 8
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] Node No.1 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 66662563
+Total bytes: 68262464512
+Avg DB latency (us): 123.57, P90 (us): 180.58, P99 (us): 349.89, P99.9 (us): 2444.06
+Avg process latency (us): 123.59, P90 (us): 180.61, P99 (us): 349.92, P99.9 (us): 2444.10
+Avg CPU utilization (percent): 567.48
+Eplased time (sec): 3743.94
+Throughput (MB/s): 17.39
+QPS (k): 17.81
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 65048812
+Total bytes: 66609983488
+Avg DB latency (us): 1.76, P90 (us): 4.66, P99 (us): 7.16, P99.9 (us):  13.69
+Avg process latency (us): 1.78, P90 (us): 4.69, P99 (us): 7.18, P99.9 (us):  13.71
+Avg CPU utilization (percent): 609.89
+Eplased time (sec): 937.19
+Throughput (MB/s): 67.78
+QPS (k): 69.41
+KV Cache miss: 0
+
+===== Stage End =====
+

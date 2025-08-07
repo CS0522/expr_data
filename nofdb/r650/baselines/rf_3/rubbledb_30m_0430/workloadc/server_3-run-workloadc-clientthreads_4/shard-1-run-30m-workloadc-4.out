@@ -1,0 +1,19 @@
+primary addr: 10.10.1.3:50051
+number of cf: 1
+is_rubble: 1
+is_primary: 0
+is_tail: 0
+remote sst dir: /mnt/remote-sst/shard-1
+sst pool dir: /mnt/sst/node-2/shard-1
+[info log fname] /mnt/data/db/shard-1/db/1_secondary_log
+[sst map log fname] /mnt/data/db/shard-1/db/1_secondary_sst_map_log
+write_buffer_size: 67108864
+target_file_size_base: 67108864
+init sync_service --- is_rubble: 1; is_head: 0
+db_option_->sst_pool_dir: /mnt/sst/node-2/shard-1
+target file size: 67108864
+sst file size : 68157440
+allocated 1448 sst slots in /mnt/sst/node-2/shard-1
+[secondary] sst pool allocation finished
+target address : 10.10.1.2:50051
+Server listening on 0.0.0.0:50051

@@ -1,0 +1,93 @@
+
+Node Configure: 
+    Node ID: 2
+    Node IP: 10.10.1.4
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 4
+    CPU cores num: 8
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+get addr_0, ip_10.10.1.2
+get addr_1, ip_10.10.1.3
+recover: before head 1216348160 before tail 1216348160
+recover: after_head 1216348160 after_tail 1216348160
+recover: before head 1216350208
+recover: after_head 1216350208
+recover: before head 1216546816
+recover: after_head 1216546816
+recover: before head 1216743424
+recover: after_head 1216743424
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 2
+[INFO] Tagged worker 0 is bound to core 4
+[INFO] Tagged worker 2 is bound to core 6
+[INFO] Tagged worker 3 is bound to core 7
+[INFO] Tagged worker 4 is bound to core 8
+[INFO] Tagged worker 1 is bound to core 5
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] Node No.2 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 66667760
+Total bytes: 68267786240
+Avg DB latency (us): 125.29, P90 (us): 181.88, P99 (us): 364.99, P99.9 (us): 2266.43
+Avg process latency (us): 125.32, P90 (us): 181.91, P99 (us): 365.02, P99.9 (us): 2266.45
+Avg CPU utilization (percent): 576.02
+Eplased time (sec): 3743.89
+Throughput (MB/s): 17.39
+QPS (k): 17.81
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 66464356
+Total bytes: 68059500544
+Avg DB latency (us): 1.72, P90 (us): 4.62, P99 (us): 7.10, P99.9 (us):  13.74
+Avg process latency (us): 1.74, P90 (us): 4.64, P99 (us): 7.12, P99.9 (us):  13.77
+Avg CPU utilization (percent): 609.94
+Eplased time (sec): 935.81
+Throughput (MB/s): 69.36
+QPS (k): 71.02
+KV Cache miss: 0
+
+===== Stage End =====
+

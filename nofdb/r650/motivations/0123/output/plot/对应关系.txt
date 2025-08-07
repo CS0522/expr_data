@@ -1,0 +1,13 @@
+Load & Run:
+----------------------------------------------
+(unit)  client          -->     server
+----------------------------------------------
+(KiB)   field_length    -->     request_size
+(one)   request_count   -->     request_count
+(us)    avg_latency     -->     avg_latency
+(us)    p90, p99, p999  -->     p90, p99, p999
+(k)     KOPS            -->     QPS
+(sec)   duration        -->     eplased_time
+(MB/s)  (None)          -->     throughput
+(%)     (None)          -->     avg_cpu_util
+----------------------------------------------

@@ -1,0 +1,14 @@
+Enable statistics: 1
+Rocksdb opened: /mnt/motivation
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0419 15:47:45.316102 27927 rdma_helper.cpp:447] RDMA device: mlx5_2
+I0419 15:47:45.316134 27927 rdma_helper.cpp:449] RDMA LID: 0
+I0419 15:47:45.317402 27927 rdma_helper.cpp:454] RDMA GID Index: 3
+I0419 15:47:45.318035 27927 block_pool.cpp:145] Start extend rdma memory 1024MB
+I0419 15:47:46.049288 27927 server.cpp:1113] Server[test::PerfTestImpl] is serving on port=50051.
+I0419 15:47:46.049309 27927 server.cpp:1116] Check out http://node1.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50051 in web browser.
+Server listening on 10.10.1.2:50051
+
+Timer is reset
+
+===== Load Statistics: 10.10.1.2:50051

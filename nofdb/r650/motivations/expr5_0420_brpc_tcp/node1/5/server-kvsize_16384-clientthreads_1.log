@@ -1,0 +1,32 @@
+Enable statistics: 1
+Rocksdb opened: /mnt/motivation
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0419 22:10:18.498646 32613 server.cpp:1113] Server[test::PerfTestImpl] is serving on port=50051.
+I0419 22:10:18.498682 32613 server.cpp:1116] Check out http://node1.motivation-test.nof-rep-pg0.clemson.cloudlab.us:50051 in web browser.
+Server listening on 10.10.1.2:50051
+
+Timer is reset
+
+===== Load Statistics: 10.10.1.2:50051
+Total requests: 1638398
+Total bytes: 26843512832
+Avg latency (us): 24.06, P90 (us): 28.51, P99 (us): 35.63, P99.9 (us):  54.56
+Eplased time (sec): 138.98
+Throughput (MB/s): 184.20
+QPS (k): 11.79
+Avg CPU utilization (percent): 185.80
+
+Timer is reset
+
+===== Transaction Statistics: 10.10.1.2:50051
+I0419 22:12:57.503939 32789 server.cpp:1173] Server[test::PerfTestImpl] is going to quit
+Total requests: 49998
+Total bytes: 819167232
+Avg latency (us): 21.55, P90 (us): 26.52, P99 (us): 31.25, P99.9 (us):  36.81
+Eplased time (sec): 4.20
+Throughput (MB/s): 185.90
+QPS (k): 11.90
+Avg CPU utilization (percent): 151.60
+
+RocksDB Server: 10.10.1.2:50051 is shutting down......
+

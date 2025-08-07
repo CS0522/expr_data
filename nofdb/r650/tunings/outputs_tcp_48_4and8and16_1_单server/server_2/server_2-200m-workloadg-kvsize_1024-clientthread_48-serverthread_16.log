@@ -1,0 +1,123 @@
+
+Node Configure: 
+    Node ID: 2
+    Node IP: 10.10.1.4
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 20
+    KVDB base path: /tmp/nofdb
+
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+get addr_0, ip_10.10.1.2
+get addr_1, ip_10.10.1.3
+recover: before head 1216348160 before tail 1216348160
+recover: after_head 1216348160 after_tail 1216348160
+recover: before head 1216350208
+recover: after_head 1216350208
+recover: before head 1216546816
+recover: after_head 1216546816
+recover: before head 1216743424
+recover: after_head 1216743424
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 2
+[INFO] NoFDBKVS No.0 -- Server No.10
+[INFO] Server worker 10 is bound to core 4
+[INFO] NoFDBKVS No.0 -- Server No.1
+[INFO] Server worker 1 is bound to core 5
+[INFO] NoFDBKVS No.0 -- Server No.8
+[INFO] Server worker 8 is bound to core 6
+[INFO] NoFDBKVS No.0 -- Server No.6
+[INFO] Server worker 6 is bound to core 7
+[INFO] NoFDBKVS No.0 -- Server No.7
+[INFO] Server worker 7 is bound to core 8
+[INFO] NoFDBKVS No.0 -- Server No.9
+[INFO] Server worker 9 is bound to core 9
+[INFO] NoFDBKVS No.0 -- Server No.14
+[INFO] Server worker 14 is bound to core 10
+[INFO] NoFDBKVS No.0 -- Server No.0
+[INFO] Server worker 0 is bound to core 11
+[INFO] NoFDBKVS No.0 -- Server No.11
+[INFO] Server worker 11 is bound to core 12
+[INFO] NoFDBKVS No.0 -- Server No.3
+[INFO] Server worker 3 is bound to core 13
+[INFO] NoFDBKVS No.0 -- Server No.2
+[INFO] Server worker 2 is bound to core 14
+[INFO] NoFDBKVS No.0 -- Server No.4
+[INFO] Server worker 4 is bound to core 15
+[INFO] NoFDBKVS No.0 -- Server No.5
+[INFO] Server worker 5 is bound to core 16
+[INFO] NoFDBKVS No.0 -- Server No.15
+[INFO] Server worker 15 is bound to core 17
+[INFO] NoFDBKVS No.0 -- Server No.13
+[INFO] Server worker 13 is bound to core 18
+[INFO] NoFDBKVS No.0 -- Server No.12
+[INFO] Server worker 12 is bound to core 19
+[INFO] Node No.2 Configure Table is generated
+Add maintainer service SUCCESS
+Add db service SUCCESS
+ brpc::Server is listening on 0.0.0.0:50050
+nvme io failed with sct 0 sc 15
+send to node 2 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 1 failed with status: nof op internal err
+nvme io failed with sct 0 sc 15
+send to node 0 failed with status: nof op internal err
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 66661391
+Total bytes: 68261264384
+Avg DB latency (us): 121.09, P90 (us): 182.31, P99 (us): 358.68, P99.9 (us): 2551.61
+Avg process latency (us): 800.86, P90 (us): 1615.38, P99 (us): 7119.49, P99.9 (us): 35277.32
+Avg CPU utilization (percent): 2226.30
+Eplased time (sec): 4284.26
+Throughput (MB/s): 15.19
+QPS (k): 15.56
+KV Cache miss: 0
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 62615606
+Total bytes: 64118380544
+Avg DB latency (us): 107.99, P90 (us): 181.53, P99 (us): 197.06, P99.9 (us): 561.66
+Avg process latency (us): 297.67, P90 (us): 473.81, P99 (us): 1606.36, P99.9 (us): 15419.35
+Avg CPU utilization (percent): 2159.00
+Eplased time (sec): 4374.86
+Throughput (MB/s): 13.98
+QPS (k): 14.31
+KV Cache miss: 0
+
+===== Stage End =====
+
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+failed polling poll group with rc -6
+qpair 35184375558208 disconnected when polling group
+qpair failure reason 2
+found 1 qpairs failed, will detach
+connection for node 0 set failed, will remove from poll group and disconnect
+found 1 qpairs failed, will detach
+found 1 qpairs failed, will detach
