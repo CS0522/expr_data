@@ -1,0 +1,352 @@
+
+[WARN] YCSB libraries not found.  Attempting to build...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 5.4
+[[1;34mINFO[m] os.detected.version.major: 5
+[[1;34mINFO[m] os.detected.version.minor: 4
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 20.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] YCSB Root                                                          [pom]
+[[1;34mINFO[m] Core YCSB                                                          [jar]
+[[1;34mINFO[m] Per Datastore Binding descriptor                                   [jar]
+[[1;34mINFO[m] YCSB Datastore Binding Parent                                      [pom]
+[[1;34mINFO[m] RocksDB Java Binding                                               [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------------< [0;36msite.ycsb:root[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding YCSB Root 0.18.0-SNAPSHOT                                 [1/5][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-maven)[m @ [36mroot[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.16:check[m [1m(validate)[m @ [36mroot[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mroot[0;1m ---[m
+[[1;34mINFO[m] Skipping mojo execution for project with packaging type 'pom'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mroot[0;1m ---[m
+[[1;34mINFO[m] Skipping mojo execution for project with packaging type 'pom'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------------< [0;36msite.ycsb:core[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding Core YCSB 0.18.0-SNAPSHOT                                 [2/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-maven)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.16:check[m [1m(validate)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /root/YCSB/core/target/generated-sources/protobuf/java
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /root/YCSB/core/target/generated-sources/protobuf/grpc-java
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 87 source files to /root/YCSB/core/target/classes
+[[1;34mINFO[m] /root/YCSB/core/src/main/java/site/ycsb/CommandLine.java: Some input files use or override a deprecated API.
+[[1;34mINFO[m] /root/YCSB/core/src/main/java/site/ycsb/CommandLine.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /root/YCSB/core/src/main/java/site/ycsb/DBWrapper.java: /root/YCSB/core/src/main/java/site/ycsb/DBWrapper.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /root/YCSB/core/src/main/java/site/ycsb/DBWrapper.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/YCSB/core/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/YCSB/core/target/core-0.18.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:copy-dependencies[m [1m(stage-dependencies)[m @ [36mcore[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom (1.3 kB at 3.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+Progress (1): 2.8/9.2 kBProgress (1): 5.5/9.2 kBProgress (1): 8.3/9.2 kBProgress (1): 9.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom (9.2 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+Progress (1): 2.8/4.2 kBProgress (1): 4.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (4.2 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom
+Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom (2.4 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+Progress (1): 2.8/8.1 kBProgress (1): 5.5/8.1 kBProgress (1): 8.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom (8.1 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom
+Progress (1): 2.8/4.4 kBProgress (1): 4.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom (4.4 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom
+Progress (1): 2.8/9.6 kBProgress (1): 5.5/9.6 kBProgress (1): 8.3/9.6 kBProgress (1): 9.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom (9.6 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom
+Progress (1): 2.8/3.2 kBProgress (1): 3.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom (3.2 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom
+Progress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom (2.3 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom
+Progress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom (2.4 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (2.7 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (2.2 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (1.6 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+Progress (1): 4.1/5.9 kBProgress (1): 5.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (5.9 kB at 56 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+Progress (1): 4.1/8.3 kBProgress (1): 8.2/8.3 kBProgress (1): 8.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (8.3 kB at 79 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom
+Progress (1): 4.1/9.1 kBProgress (1): 8.2/9.1 kBProgress (1): 9.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom (9.1 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+Progress (1): 346 B                   Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom (346 B at 3.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+Progress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (3.4 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (2.2 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom (3.1 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+Progress (1): 4.1/5.2 kBProgress (1): 5.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (5.2 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+Progress (1): 266 B                   Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 2.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom
+Progress (1): 4.1/6.8 kBProgress (1): 6.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom (6.8 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (2.8 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+Progress (1): 4.1/22 kBProgress (1): 8.2/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (22 kB at 200 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (2.2 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (3.2 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (2.2 kB at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (3.1 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (1.9 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (1.6 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (1.9 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
+Progress (1): 4.1/5.1 kBProgress (1): 5.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (5.1 kB at 50 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+Progress (1): 4.1/21 kBProgress (1): 8.2/21 kBProgress (1): 12/21 kB Progress (1): 16/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 kB at 184 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+Progress (1): 2.8/109 kBProgress (2): 2.8/109 kB | 2.8/55 kBProgress (3): 2.8/109 kB | 2.8/55 kB | 2.8/91 kBProgress (3): 2.8/109 kB | 5.5/55 kB | 2.8/91 kBProgress (3): 5.5/109 kB | 5.5/55 kB | 2.8/91 kBProgress (3): 5.5/109 kB | 8.3/55 kB | 2.8/91 kBProgress (3): 5.5/109 kB | 8.3/55 kB | 5.5/91 kBProgress (3): 5.5/109 kB | 11/55 kB | 5.5/91 kB Progress (3): 8.3/109 kB | 11/55 kB | 5.5/91 kBProgress (3): 8.3/109 kB | 11/55 kB | 8.3/91 kBProgress (3): 11/109 kB | 11/55 kB | 8.3/91 kB Progress (3): 11/109 kB | 14/55 kB | 8.3/91 kBProgress (3): 14/109 kB | 14/55 kB | 8.3/91 kBProgress (3): 14/109 kB | 14/55 kB | 11/91 kB Progress (3): 14/109 kB | 14/55 kB | 14/91 kBProgress (3): 16/109 kB | 14/55 kB | 14/91 kBProgress (3): 16/109 kB | 16/55 kB | 14/91 kBProgress (3): 16/109 kB | 16/55 kB | 16/91 kBProgress (4): 16/109 kB | 16/55 kB | 16/91 kB | 2.8/41 kBProgress (4): 16/109 kB | 16/55 kB | 19/91 kB | 2.8/41 kBProgress (4): 19/109 kB | 16/55 kB | 19/91 kB | 2.8/41 kBProgress (4): 19/109 kB | 16/55 kB | 19/91 kB | 5.5/41 kBProgress (4): 19/109 kB | 19/55 kB | 19/91 kB | 5.5/41 kBProgress (4): 19/109 kB | 19/55 kB | 19/91 kB | 8.3/41 kBProgress (4): 19/109 kB | 19/55 kB | 19/91 kB | 11/41 kB Progress (4): 19/109 kB | 19/55 kB | 19/91 kB | 14/41 kBProgress (5): 19/109 kB | 19/55 kB | 19/91 kB | 14/41 kB | 4.1/10 kBProgress (5): 19/109 kB | 19/55 kB | 22/91 kB | 14/41 kB | 4.1/10 kBProgress (5): 19/109 kB | 19/55 kB | 22/91 kB | 14/41 kB | 8.2/10 kBProgress (5): 22/109 kB | 19/55 kB | 22/91 kB | 14/41 kB | 8.2/10 kBProgress (5): 22/109 kB | 19/55 kB | 22/91 kB | 14/41 kB | 10 kB    Progress (5): 22/109 kB | 22/55 kB | 22/91 kB | 14/41 kB | 10 kBProgress (5): 22/109 kB | 22/55 kB | 22/91 kB | 16/41 kB | 10 kBProgress (5): 22/109 kB | 22/55 kB | 25/91 kB | 16/41 kB | 10 kBProgress (5): 25/109 kB | 22/55 kB | 25/91 kB | 16/41 kB | 10 kBProgress (5): 25/109 kB | 25/55 kB | 25/91 kB | 16/41 kB | 10 kBProgress (5): 25/109 kB | 25/55 kB | 25/91 kB | 19/41 kB | 10 kBProgress (5): 25/109 kB | 25/55 kB | 27/91 kB | 19/41 kB | 10 kBProgress (5): 27/109 kB | 25/55 kB | 27/91 kB | 19/41 kB | 10 kBProgress (5): 27/109 kB | 27/55 kB | 27/91 kB | 19/41 kB | 10 kBProgress (5): 27/109 kB | 27/55 kB | 27/91 kB | 22/41 kB | 10 kBProgress (5): 27/109 kB | 27/55 kB | 30/91 kB | 22/41 kB | 10 kBProgress (5): 30/109 kB | 27/55 kB | 30/91 kB | 22/41 kB | 10 kBProgress (5): 30/109 kB | 30/55 kB | 30/91 kB | 22/41 kB | 10 kBProgress (5): 30/109 kB | 30/55 kB | 30/91 kB | 25/41 kB | 10 kBProgress (5): 30/109 kB | 30/55 kB | 33/91 kB | 25/41 kB | 10 kBProgress (5): 33/109 kB | 30/55 kB | 33/91 kB | 25/41 kB | 10 kBProgress (5): 33/109 kB | 33/55 kB | 33/91 kB | 25/41 kB | 10 kBProgress (5): 33/109 kB | 33/55 kB | 33/91 kB | 27/41 kB | 10 kBProgress (5): 33/109 kB | 33/55 kB | 36/91 kB | 27/41 kB | 10 kBProgress (5): 36/109 kB | 33/55 kB | 36/91 kB | 27/41 kB | 10 kBProgress (5): 36/109 kB | 36/55 kB | 36/91 kB | 27/41 kB | 10 kBProgress (5): 36/109 kB | 36/55 kB | 36/91 kB | 30/41 kB | 10 kBProgress (5): 36/109 kB | 36/55 kB | 38/91 kB | 30/41 kB | 10 kBProgress (5): 38/109 kB | 36/55 kB | 38/91 kB | 30/41 kB | 10 kBProgress (5): 38/109 kB | 38/55 kB | 38/91 kB | 30/41 kB | 10 kBProgress (5): 38/109 kB | 38/55 kB | 38/91 kB | 33/41 kB | 10 kBProgress (5): 41/109 kB | 38/55 kB | 38/91 kB | 33/41 kB | 10 kBProgress (5): 41/109 kB | 41/55 kB | 38/91 kB | 33/41 kB | 10 kBProgress (5): 41/109 kB | 41/55 kB | 38/91 kB | 36/41 kB | 10 kBProgress (5): 41/109 kB | 41/55 kB | 38/91 kB | 38/41 kB | 10 kBProgress (5): 41/109 kB | 41/55 kB | 38/91 kB | 41 kB | 10 kB   Progress (5): 41/109 kB | 41/55 kB | 41/91 kB | 41 kB | 10 kBProgress (5): 44/109 kB | 41/55 kB | 41/91 kB | 41 kB | 10 kBProgress (5): 44/109 kB | 44/55 kB | 41/91 kB | 41 kB | 10 kBProgress (5): 44/109 kB | 44/55 kB | 44/91 kB | 41 kB | 10 kBProgress (5): 44/109 kB | 47/55 kB | 44/91 kB | 41 kB | 10 kBProgress (5): 47/109 kB | 47/55 kB | 44/91 kB | 41 kB | 10 kBProgress (5): 47/109 kB | 47/55 kB | 47/91 kB | 41 kB | 10 kBProgress (5): 47/109 kB | 49/55 kB | 47/91 kB | 41 kB | 10 kBProgress (5): 49/109 kB | 49/55 kB | 47/91 kB | 41 kB | 10 kBProgress (5): 49/109 kB | 49/55 kB | 49/91 kB | 41 kB | 10 kBProgress (5): 49/109 kB | 52/55 kB | 49/91 kB | 41 kB | 10 kBProgress (5): 52/109 kB | 52/55 kB | 49/91 kB | 41 kB | 10 kBProgress (5): 52/109 kB | 52/55 kB | 52/91 kB | 41 kB | 10 kBProgress (5): 52/109 kB | 52/55 kB | 55/91 kB | 41 kB | 10 kBProgress (5): 55/109 kB | 52/55 kB | 55/91 kB | 41 kB | 10 kBProgress (5): 55/109 kB | 55 kB | 55/91 kB | 41 kB | 10 kB   Progress (5): 55/109 kB | 55 kB | 58/91 kB | 41 kB | 10 kBProgress (5): 58/109 kB | 55 kB | 58/91 kB | 41 kB | 10 kBProgress (5): 58/109 kB | 55 kB | 61/91 kB | 41 kB | 10 kBProgress (5): 61/109 kB | 55 kB | 61/91 kB | 41 kB | 10 kBProgress (5): 61/109 kB | 55 kB | 63/91 kB | 41 kB | 10 kBProgress (5): 63/109 kB | 55 kB | 63/91 kB | 41 kB | 10 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (10 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar
+Progress (4): 67/109 kB | 55 kB | 63/91 kB | 41 kBProgress (4): 71/109 kB | 55 kB | 63/91 kB | 41 kBProgress (4): 75/109 kB | 55 kB | 63/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 63/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 67/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 71/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 76/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 80/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 84/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 88/91 kB | 41 kBProgress (4): 79/109 kB | 55 kB | 91 kB | 41 kB   Progress (4): 83/109 kB | 55 kB | 91 kB | 41 kBProgress (4): 87/109 kB | 55 kB | 91 kB | 41 kBProgress (4): 91/109 kB | 55 kB | 91 kB | 41 kBProgress (4): 95/109 kB | 55 kB | 91 kB | 41 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 kB at 176 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar
+Progress (3): 99/109 kB | 55 kB | 91 kBProgress (3): 104/109 kB | 55 kB | 91 kBProgress (3): 108/109 kB | 55 kB | 91 kBProgress (3): 109 kB | 55 kB | 91 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar (55 kB at 208 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar
+Progress (3): 109 kB | 91 kB | 4.1/47 kBProgress (3): 109 kB | 91 kB | 8.2/47 kBProgress (3): 109 kB | 91 kB | 12/47 kB Progress (3): 109 kB | 91 kB | 16/47 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar (91 kB at 329 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar
+Progress (3): 109 kB | 16/47 kB | 2.8/49 kBProgress (3): 109 kB | 16/47 kB | 5.5/49 kBProgress (3): 109 kB | 20/47 kB | 5.5/49 kBProgress (3): 109 kB | 25/47 kB | 5.5/49 kBProgress (3): 109 kB | 29/47 kB | 5.5/49 kBProgress (3): 109 kB | 33/47 kB | 5.5/49 kBProgress (3): 109 kB | 33/47 kB | 8.3/49 kBProgress (3): 109 kB | 33/47 kB | 11/49 kB Progress (3): 109 kB | 33/47 kB | 14/49 kBProgress (3): 109 kB | 33/47 kB | 16/49 kBProgress (3): 109 kB | 37/47 kB | 16/49 kBProgress (3): 109 kB | 41/47 kB | 16/49 kBProgress (3): 109 kB | 45/47 kB | 16/49 kBProgress (3): 109 kB | 47 kB | 16/49 kB   Progress (3): 109 kB | 47 kB | 20/49 kBProgress (3): 109 kB | 47 kB | 25/49 kBProgress (3): 109 kB | 47 kB | 29/49 kBProgress (3): 109 kB | 47 kB | 33/49 kBProgress (3): 109 kB | 47 kB | 37/49 kBProgress (3): 109 kB | 47 kB | 41/49 kBProgress (3): 109 kB | 47 kB | 45/49 kBProgress (3): 109 kB | 47 kB | 49 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar (109 kB at 355 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar
+Progress (3): 47 kB | 49 kB | 4.1/47 kBProgress (3): 47 kB | 49 kB | 8.2/47 kBProgress (3): 47 kB | 49 kB | 12/47 kB Progress (3): 47 kB | 49 kB | 16/47 kBProgress (3): 47 kB | 49 kB | 20/47 kBProgress (3): 47 kB | 49 kB | 24/47 kBProgress (3): 47 kB | 49 kB | 28/47 kBProgress (3): 47 kB | 49 kB | 32/47 kBProgress (3): 47 kB | 49 kB | 36/47 kBProgress (3): 47 kB | 49 kB | 40/47 kBProgress (3): 47 kB | 49 kB | 44/47 kBProgress (3): 47 kB | 49 kB | 47 kB   Progress (4): 47 kB | 49 kB | 47 kB | 4.1/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 8.2/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 12/19 kB Progress (4): 47 kB | 49 kB | 47 kB | 16/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 19 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar (47 kB at 136 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar (49 kB at 141 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+Progress (3): 47 kB | 19 kB | 4.1/28 kBProgress (3): 47 kB | 19 kB | 8.2/28 kBProgress (3): 47 kB | 19 kB | 12/28 kB Progress (3): 47 kB | 19 kB | 16/28 kBProgress (3): 47 kB | 19 kB | 20/28 kBProgress (3): 47 kB | 19 kB | 25/28 kBProgress (3): 47 kB | 19 kB | 28 kB                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar (47 kB at 125 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar (19 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+Progress (2): 28 kB | 4.1/22 kBProgress (2): 28 kB | 8.2/22 kBProgress (2): 28 kB | 12/22 kB Progress (2): 28 kB | 16/22 kBProgress (2): 28 kB | 20/22 kBProgress (2): 28 kB | 22 kB   Progress (3): 28 kB | 22 kB | 4.1/186 kBProgress (3): 28 kB | 22 kB | 8.2/186 kBProgress (3): 28 kB | 22 kB | 12/186 kB Progress (3): 28 kB | 22 kB | 16/186 kBProgress (3): 28 kB | 22 kB | 20/186 kBProgress (3): 28 kB | 22 kB | 25/186 kBProgress (3): 28 kB | 22 kB | 29/186 kBProgress (3): 28 kB | 22 kB | 32/186 kBProgress (3): 28 kB | 22 kB | 36/186 kBProgress (3): 28 kB | 22 kB | 38/186 kBProgress (3): 28 kB | 22 kB | 41/186 kBProgress (3): 28 kB | 22 kB | 44/186 kBProgress (3): 28 kB | 22 kB | 47/186 kBProgress (3): 28 kB | 22 kB | 49/186 kBProgress (3): 28 kB | 22 kB | 52/186 kBProgress (3): 28 kB | 22 kB | 55/186 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar (28 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+Progress (2): 22 kB | 58/186 kBProgress (2): 22 kB | 60/186 kBProgress (2): 22 kB | 63/186 kBProgress (2): 22 kB | 67/186 kBProgress (2): 22 kB | 71/186 kBProgress (2): 22 kB | 75/186 kBProgress (2): 22 kB | 79/186 kBProgress (2): 22 kB | 83/186 kBProgress (2): 22 kB | 87/186 kBProgress (2): 22 kB | 91/186 kBProgress (2): 22 kB | 95/186 kBProgress (3): 22 kB | 95/186 kB | 4.1/232 kBProgress (3): 22 kB | 95/186 kB | 8.2/232 kBProgress (3): 22 kB | 95/186 kB | 12/232 kB Progress (3): 22 kB | 95/186 kB | 16/232 kBProgress (4): 22 kB | 95/186 kB | 16/232 kB | 4.1/58 kBProgress (4): 22 kB | 95/186 kB | 20/232 kB | 4.1/58 kBProgress (4): 22 kB | 95/186 kB | 20/232 kB | 8.2/58 kBProgress (4): 22 kB | 95/186 kB | 25/232 kB | 8.2/58 kBProgress (4): 22 kB | 95/186 kB | 25/232 kB | 12/58 kB Progress (4): 22 kB | 95/186 kB | 29/232 kB | 12/58 kBProgress (4): 22 kB | 95/186 kB | 29/232 kB | 16/58 kBProgress (4): 22 kB | 95/186 kB | 33/232 kB | 16/58 kBProgress (4): 22 kB | 95/186 kB | 33/232 kB | 20/58 kBProgress (4): 22 kB | 95/186 kB | 33/232 kB | 25/58 kBProgress (4): 22 kB | 95/186 kB | 33/232 kB | 29/58 kBProgress (4): 22 kB | 95/186 kB | 33/232 kB | 33/58 kBProgress (4): 22 kB | 95/186 kB | 37/232 kB | 33/58 kBProgress (4): 22 kB | 95/186 kB | 41/232 kB | 33/58 kBProgress (4): 22 kB | 95/186 kB | 45/232 kB | 33/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 33/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 37/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 41/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 45/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 49/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 53/58 kBProgress (4): 22 kB | 95/186 kB | 49/232 kB | 57/58 kBProgress (4): 22 kB | 95/186 kB | 53/232 kB | 57/58 kBProgress (4): 22 kB | 95/186 kB | 53/232 kB | 58 kB   Progress (4): 22 kB | 95/186 kB | 57/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 61/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 66/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 70/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 74/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 78/232 kB | 58 kBProgress (4): 22 kB | 95/186 kB | 82/232 kB | 58 kB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar (22 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar
+Progress (3): 99/186 kB | 82/232 kB | 58 kBProgress (3): 103/186 kB | 82/232 kB | 58 kBProgress (3): 108/186 kB | 82/232 kB | 58 kBProgress (3): 112/186 kB | 82/232 kB | 58 kBProgress (3): 112/186 kB | 86/232 kB | 58 kBProgress (3): 112/186 kB | 90/232 kB | 58 kBProgress (3): 112/186 kB | 94/232 kB | 58 kBProgress (3): 112/186 kB | 98/232 kB | 58 kBProgress (3): 116/186 kB | 98/232 kB | 58 kBProgress (3): 120/186 kB | 98/232 kB | 58 kBProgress (3): 124/186 kB | 98/232 kB | 58 kBProgress (3): 128/186 kB | 98/232 kB | 58 kBProgress (3): 132/186 kB | 98/232 kB | 58 kBProgress (3): 136/186 kB | 98/232 kB | 58 kBProgress (3): 140/186 kB | 98/232 kB | 58 kBProgress (3): 144/186 kB | 98/232 kB | 58 kBProgress (3): 149/186 kB | 98/232 kB | 58 kBProgress (3): 153/186 kB | 98/232 kB | 58 kBProgress (3): 157/186 kB | 98/232 kB | 58 kBProgress (3): 161/186 kB | 98/232 kB | 58 kBProgress (3): 165/186 kB | 98/232 kB | 58 kBProgress (3): 169/186 kB | 98/232 kB | 58 kBProgress (3): 173/186 kB | 98/232 kB | 58 kBProgress (3): 177/186 kB | 98/232 kB | 58 kBProgress (3): 181/186 kB | 98/232 kB | 58 kBProgress (3): 185/186 kB | 98/232 kB | 58 kBProgress (3): 186 kB | 98/232 kB | 58 kB    Progress (4): 186 kB | 98/232 kB | 58 kB | 4.1/27 kBProgress (4): 186 kB | 98/232 kB | 58 kB | 8.2/27 kBProgress (4): 186 kB | 98/232 kB | 58 kB | 12/27 kB Progress (4): 186 kB | 98/232 kB | 58 kB | 16/27 kBProgress (4): 186 kB | 98/232 kB | 58 kB | 20/27 kBProgress (4): 186 kB | 98/232 kB | 58 kB | 25/27 kBProgress (4): 186 kB | 98/232 kB | 58 kB | 27 kB   Progress (4): 186 kB | 102/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 106/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 111/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 115/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 119/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 123/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 127/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 131/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 135/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 139/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 143/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 147/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 152/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 156/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 160/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 164/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 168/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 172/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 176/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 180/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 184/232 kB | 58 kB | 27 kBProgress (4): 186 kB | 188/232 kB | 58 kB | 27 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (58 kB at 117 kB/s)
+Progress (3): 186 kB | 192/232 kB | 27 kB                                         Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar
+Progress (3): 186 kB | 197/232 kB | 27 kBProgress (3): 186 kB | 201/232 kB | 27 kBProgress (3): 186 kB | 205/232 kB | 27 kBProgress (3): 186 kB | 209/232 kB | 27 kBProgress (3): 186 kB | 213/232 kB | 27 kBProgress (3): 186 kB | 217/232 kB | 27 kBProgress (3): 186 kB | 221/232 kB | 27 kBProgress (3): 186 kB | 225/232 kB | 27 kBProgress (3): 186 kB | 229/232 kB | 27 kBProgress (3): 186 kB | 232 kB | 27 kB    Progress (4): 186 kB | 232 kB | 27 kB | 4.1/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 8.2/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 12/44 kB Progress (4): 186 kB | 232 kB | 27 kB | 16/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 20/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 25/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 29/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 33/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 37/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 41/44 kBProgress (4): 186 kB | 232 kB | 27 kB | 44 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (186 kB at 363 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 kB at 53 kB/s)
+Progress (3): 232 kB | 44 kB | 4.1/60 kBProgress (3): 232 kB | 44 kB | 8.2/60 kBProgress (3): 232 kB | 44 kB | 12/60 kB Progress (3): 232 kB | 44 kB | 16/60 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (232 kB at 422 kB/s)
+Progress (2): 44 kB | 20/60 kBProgress (2): 44 kB | 25/60 kBProgress (2): 44 kB | 29/60 kBProgress (2): 44 kB | 33/60 kBProgress (2): 44 kB | 37/60 kBProgress (2): 44 kB | 41/60 kBProgress (2): 44 kB | 45/60 kBProgress (2): 44 kB | 49/60 kBProgress (2): 44 kB | 53/60 kBProgress (2): 44 kB | 57/60 kBProgress (2): 44 kB | 60 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 78 kB/s)
+Progress (2): 60 kB | 4.1/29 kBProgress (2): 60 kB | 8.2/29 kBProgress (2): 60 kB | 12/29 kB Progress (2): 60 kB | 16/29 kBProgress (2): 60 kB | 20/29 kBProgress (2): 60 kB | 25/29 kBProgress (2): 60 kB | 29/29 kBProgress (2): 60 kB | 29 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar (60 kB at 99 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 kB at 47 kB/s)
+[[1;34mINFO[m] Copying jsr305-3.0.2.jar to /root/YCSB/core/target/dependency/jsr305-3.0.2.jar
+[[1;34mINFO[m] Copying animal-sniffer-annotations-1.19.jar to /root/YCSB/core/target/dependency/animal-sniffer-annotations-1.19.jar
+[[1;34mINFO[m] Copying HdrHistogram-2.1.4.jar to /root/YCSB/core/target/dependency/HdrHistogram-2.1.4.jar
+[[1;34mINFO[m] Copying proto-google-common-protos-2.0.1.jar to /root/YCSB/core/target/dependency/proto-google-common-protos-2.0.1.jar
+[[1;34mINFO[m] Copying guava-30.0-android.jar to /root/YCSB/core/target/dependency/guava-30.0-android.jar
+[[1;34mINFO[m] Copying listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to /root/YCSB/core/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[[1;34mINFO[m] Copying grpc-protobuf-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-protobuf-1.37.1.jar
+[[1;34mINFO[m] Copying jackson-core-asl-1.9.4.jar to /root/YCSB/core/target/dependency/jackson-core-asl-1.9.4.jar
+[[1;34mINFO[m] Copying gson-2.8.6.jar to /root/YCSB/core/target/dependency/gson-2.8.6.jar
+[[1;34mINFO[m] Copying grpc-context-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-context-1.37.1.jar
+[[1;34mINFO[m] Copying error_prone_annotations-2.4.0.jar to /root/YCSB/core/target/dependency/error_prone_annotations-2.4.0.jar
+[[1;34mINFO[m] Copying checker-compat-qual-2.5.5.jar to /root/YCSB/core/target/dependency/checker-compat-qual-2.5.5.jar
+[[1;34mINFO[m] Copying protobuf-java-3.12.0.jar to /root/YCSB/core/target/dependency/protobuf-java-3.12.0.jar
+[[1;34mINFO[m] Copying grpc-stub-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-stub-1.37.1.jar
+[[1;34mINFO[m] Copying jackson-mapper-asl-1.9.4.jar to /root/YCSB/core/target/dependency/jackson-mapper-asl-1.9.4.jar
+[[1;34mINFO[m] Copying j2objc-annotations-1.3.jar to /root/YCSB/core/target/dependency/j2objc-annotations-1.3.jar
+[[1;34mINFO[m] Copying htrace-core4-4.1.0-incubating.jar to /root/YCSB/core/target/dependency/htrace-core4-4.1.0-incubating.jar
+[[1;34mINFO[m] Copying perfmark-api-0.23.0.jar to /root/YCSB/core/target/dependency/perfmark-api-0.23.0.jar
+[[1;34mINFO[m] Copying failureaccess-1.0.1.jar to /root/YCSB/core/target/dependency/failureaccess-1.0.1.jar
+[[1;34mINFO[m] Copying grpc-core-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-core-1.37.1.jar
+[[1;34mINFO[m] Copying grpc-protobuf-lite-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-protobuf-lite-1.37.1.jar
+[[1;34mINFO[m] Copying slf4j-simple-1.7.25.jar to /root/YCSB/core/target/dependency/slf4j-simple-1.7.25.jar
+[[1;34mINFO[m] Copying annotations-4.1.1.4.jar to /root/YCSB/core/target/dependency/annotations-4.1.1.4.jar
+[[1;34mINFO[m] Copying slf4j-api-1.7.25.jar to /root/YCSB/core/target/dependency/slf4j-api-1.7.25.jar
+[[1;34mINFO[m] Copying grpc-api-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-api-1.37.1.jar
+[[1;34mINFO[m] Copying grpc-netty-shaded-1.37.1.jar to /root/YCSB/core/target/dependency/grpc-netty-shaded-1.37.1.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36msite.ycsb:datastore-specific-descriptor[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Per Datastore Binding descriptor 0.18.0-SNAPSHOT          [3/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-maven)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.16:check[m [1m(validate)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] /root/YCSB/binding-parent/datastore-specific-descriptor/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] /root/YCSB/binding-parent/datastore-specific-descriptor/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/YCSB/binding-parent/datastore-specific-descriptor/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mdatastore-specific-descriptor[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/YCSB/binding-parent/datastore-specific-descriptor/target/datastore-specific-descriptor-0.18.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36msite.ycsb:binding-parent[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding YCSB Datastore Binding Parent 0.18.0-SNAPSHOT             [4/5][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-maven)[m @ [36mbinding-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.16:check[m [1m(validate)[m @ [36mbinding-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mbinding-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping mojo execution for project with packaging type 'pom'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mbinding-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping mojo execution for project with packaging type 'pom'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(stage-dependencies)[m @ [36mbinding-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36msite.ycsb:rocksdb-binding[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding RocksDB Java Binding 0.18.0-SNAPSHOT                      [5/5][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M1:enforce[m [1m(enforce-maven)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:2.16:check[m [1m(validate)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /root/YCSB/rocksdb/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /root/YCSB/rocksdb/target/classes
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/ChainNode.java: /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/ChainNode.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/ChainNode.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/Replicator.java: /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/Replicator.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /root/YCSB/rocksdb/src/main/java/site/ycsb/db/rocksdb/Replicator.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /root/YCSB/rocksdb/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Building jar: /root/YCSB/rocksdb/target/rocksdb-binding-0.18.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(stage-dependencies)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;34mINFO[m] Copying jsr305-3.0.2.jar to /root/YCSB/rocksdb/target/dependency/jsr305-3.0.2.jar
+[[1;34mINFO[m] Copying jcip-annotations-1.0.jar to /root/YCSB/rocksdb/target/dependency/jcip-annotations-1.0.jar
+[[1;34mINFO[m] Copying animal-sniffer-annotations-1.19.jar to /root/YCSB/rocksdb/target/dependency/animal-sniffer-annotations-1.19.jar
+[[1;34mINFO[m] Copying HdrHistogram-2.1.4.jar to /root/YCSB/rocksdb/target/dependency/HdrHistogram-2.1.4.jar
+[[1;34mINFO[m] Copying proto-google-common-protos-2.0.1.jar to /root/YCSB/rocksdb/target/dependency/proto-google-common-protos-2.0.1.jar
+[[1;34mINFO[m] Copying guava-30.0-android.jar to /root/YCSB/rocksdb/target/dependency/guava-30.0-android.jar
+[[1;34mINFO[m] Copying listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to /root/YCSB/rocksdb/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[[1;34mINFO[m] Copying grpc-protobuf-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-protobuf-1.37.1.jar
+[[1;34mINFO[m] Copying gson-2.8.6.jar to /root/YCSB/rocksdb/target/dependency/gson-2.8.6.jar
+[[1;34mINFO[m] Copying grpc-context-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-context-1.37.1.jar
+[[1;34mINFO[m] Copying error_prone_annotations-2.4.0.jar to /root/YCSB/rocksdb/target/dependency/error_prone_annotations-2.4.0.jar
+[[1;34mINFO[m] Copying checker-compat-qual-2.5.5.jar to /root/YCSB/rocksdb/target/dependency/checker-compat-qual-2.5.5.jar
+[[1;34mINFO[m] Copying protobuf-java-3.12.0.jar to /root/YCSB/rocksdb/target/dependency/protobuf-java-3.12.0.jar
+[[1;34mINFO[m] Copying grpc-stub-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-stub-1.37.1.jar
+[[1;34mINFO[m] Copying j2objc-annotations-1.3.jar to /root/YCSB/rocksdb/target/dependency/j2objc-annotations-1.3.jar
+[[1;34mINFO[m] Copying rocksdbjni-6.2.2.jar to /root/YCSB/rocksdb/target/dependency/rocksdbjni-6.2.2.jar
+[[1;34mINFO[m] Copying htrace-core4-4.1.0-incubating.jar to /root/YCSB/rocksdb/target/dependency/htrace-core4-4.1.0-incubating.jar
+[[1;34mINFO[m] Copying perfmark-api-0.23.0.jar to /root/YCSB/rocksdb/target/dependency/perfmark-api-0.23.0.jar
+[[1;34mINFO[m] Copying failureaccess-1.0.1.jar to /root/YCSB/rocksdb/target/dependency/failureaccess-1.0.1.jar
+[[1;34mINFO[m] Copying grpc-core-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-core-1.37.1.jar
+[[1;34mINFO[m] Copying grpc-protobuf-lite-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-protobuf-lite-1.37.1.jar
+[[1;34mINFO[m] Copying slf4j-simple-1.7.25.jar to /root/YCSB/rocksdb/target/dependency/slf4j-simple-1.7.25.jar
+[[1;34mINFO[m] Copying annotations-4.1.1.4.jar to /root/YCSB/rocksdb/target/dependency/annotations-4.1.1.4.jar
+[[1;34mINFO[m] Copying slf4j-api-1.7.25.jar to /root/YCSB/rocksdb/target/dependency/slf4j-api-1.7.25.jar
+[[1;34mINFO[m] Copying grpc-api-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-api-1.37.1.jar
+[[1;34mINFO[m] Copying grpc-netty-shaded-1.37.1.jar to /root/YCSB/rocksdb/target/dependency/grpc-netty-shaded-1.37.1.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.5.5:single[m [1m(default)[m @ [36mrocksdb-binding[0;1m ---[m
+[[1;33mWARNING[m] The following patterns were never triggered in this artifact exclusion filter:
+o  '*:sources'
+
+[[1;34mINFO[m] Building tar: /root/YCSB/rocksdb/target/ycsb-rocksdb-binding-0.18.0-SNAPSHOT.tar.gz
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for YCSB Root 0.18.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] YCSB Root .......................................... [1;32mSUCCESS[m [  0.918 s]
+[[1;34mINFO[m] Core YCSB .......................................... [1;32mSUCCESS[m [  6.746 s]
+[[1;34mINFO[m] Per Datastore Binding descriptor ................... [1;32mSUCCESS[m [  0.115 s]
+[[1;34mINFO[m] YCSB Datastore Binding Parent ...................... [1;32mSUCCESS[m [  0.271 s]
+[[1;34mINFO[m] RocksDB Java Binding ............................... [1;32mSUCCESS[m [  1.964 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.296 s
+[[1;34mINFO[m] Finished at: 2025-08-10T07:57:51-06:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[ERROR] Error trying to build project. Exiting.
