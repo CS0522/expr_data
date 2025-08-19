@@ -1,0 +1,558 @@
+/usr/bin/java -Xmx64G -XX:MaxDirectMemorySize=64G -classpath /root/YCSB/conf:/root/YCSB/core/target/core-0.18.0-SNAPSHOT.jar:/root/YCSB/rocksdb/target/rocksdb-binding-0.18.0-SNAPSHOT.jar:/root/YCSB/rocksdb/target/dependency/HdrHistogram-2.1.4.jar:/root/YCSB/rocksdb/target/dependency/animal-sniffer-annotations-1.19.jar:/root/YCSB/rocksdb/target/dependency/annotations-4.1.1.4.jar:/root/YCSB/rocksdb/target/dependency/checker-compat-qual-2.5.5.jar:/root/YCSB/rocksdb/target/dependency/error_prone_annotations-2.4.0.jar:/root/YCSB/rocksdb/target/dependency/failureaccess-1.0.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-api-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-context-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-core-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-netty-shaded-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-protobuf-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-protobuf-lite-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/grpc-stub-1.37.1.jar:/root/YCSB/rocksdb/target/dependency/gson-2.8.6.jar:/root/YCSB/rocksdb/target/dependency/guava-30.0-android.jar:/root/YCSB/rocksdb/target/dependency/htrace-core4-4.1.0-incubating.jar:/root/YCSB/rocksdb/target/dependency/j2objc-annotations-1.3.jar:/root/YCSB/rocksdb/target/dependency/jcip-annotations-1.0.jar:/root/YCSB/rocksdb/target/dependency/jsr305-3.0.2.jar:/root/YCSB/rocksdb/target/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/YCSB/rocksdb/target/dependency/perfmark-api-0.23.0.jar:/root/YCSB/rocksdb/target/dependency/proto-google-common-protos-2.0.1.jar:/root/YCSB/rocksdb/target/dependency/protobuf-java-3.12.0.jar:/root/YCSB/rocksdb/target/dependency/rocksdbjni-6.14.0.jar:/root/YCSB/rocksdb/target/dependency/slf4j-api-1.7.25.jar:/root/YCSB/rocksdb/target/dependency/slf4j-simple-1.7.25.jar site.ycsb.db.rocksdb.Replicator  -db site.ycsb.db.rocksdb.RocksDBClient -s -P workloads/workloadc -p port=50040 -p shard=2 -p client=4 -p head0=10.10.1.2:50050 -p tail0=10.10.1.3:50050 -p head1=10.10.1.3:50051 -p tail1=10.10.1.2:50051 -p replica=2
+Command line: -db site.ycsb.db.rocksdb.RocksDBClient -s -P workloads/workloadc -p port=50040 -p shard=2 -p client=4 -p head0=10.10.1.2:50050 -p tail0=10.10.1.3:50050 -p head1=10.10.1.3:50051 -p tail1=10.10.1.2:50051 -p replica=2
+[main] INFO site.ycsb.db.rocksdb.Replicator - Server started, listening on 50040
+Detecting ssh root@10.10.1.3 "while true; do     if  ps aux | grep 'db_node 50050' | grep -v grep > /dev/null; then       break;     fi;     sleep 1; done"
+Detecting ssh root@10.10.1.2 "while true; do     if  ps aux | grep 'db_node 50051' | grep -v grep > /dev/null; then       break;     fi;     sleep 1; done"
+Detected shard 0 alive true on 10.10.1.3 with code 0
+Detecting ssh root@10.10.1.3 "while true; do     if ! ps aux | grep 'db_node 50050' | grep -v grep > /dev/null; then       break;     fi;     sleep 1; done"
+Detected shard 1 alive true on 10.10.1.2 with code 0
+Detecting ssh root@10.10.1.2 "while true; do     if ! ps aux | grep 'db_node 50051' | grep -v grep > /dev/null; then       break;     fi;     sleep 1; done"
+observerMap[1] [0] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@25631a2b
+observerMap[0] [3] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@74d85645
+observerMap[1] [1] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@2cb2fa71
+observerMap[0] [2] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@3234652e
+observerAccumulator 2 shard 0
+observerAccumulator 2 shard 1
+observerAccumulator 3 shard 0
+observerAccumulator 4 shard 1
+observerMap[0] [0] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@26ed59ed
+observerMap[0] [1] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@584c9bb3
+observerAccumulator 5 shard 0
+observerAccumulator 6 shard 0
+observerMap[1] [3] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@44a1fda9
+observerAccumulator 7 shard 1
+observerMap[1] [2] [1] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@d0798e1
+observerAccumulator 8 shard 1
+observerMap[0] [2] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@3234652e to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@1647a29e
+observerMap[1] [2] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@d0798e1 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@2e97692e
+observerMap[1] [2] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@2e97692e to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@d0798e1
+observerAccumulator 10 shard 0
+observerAccumulator 10 shard 1
+headObserver.onCompleted shard: 1 client: 2 write:true 2025-08-17 13:53:12.913
+dumbObserver.onCompleted shard: 1 client: 2 write:true 2025-08-17 13:53:12.916
+headObserver.onCompleted shard: 1 client: 2 write:true 2025-08-17 13:53:12.913
+headObserver.onCompleted shard: 0 client: 2 write:true 2025-08-17 13:53:12.913
+sendReply.onError shard: 0 client: 2 write:true 2025-08-17 13:53:12.914
+headObserver.onCompleted shard: 0 client: 2 write:true 2025-08-17 13:53:12.913[grpc-default-executor-20] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:12.914
+[grpc-default-executor-24] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReplydumbObserver.onError shard: 0 client: 2 write:true 2025-08-17 13:53:12.917
+
+io.grpc.StatusRuntimeException: CANCELLED: client cancelleddumbObserver.onCompleted shard: 0 client: 2 write:true 2025-08-17 13:53:12.916
+
+sendReply.onError shard: 1 client: 2 write:true 2025-08-17 13:53:12.914
+dumbObserver.onCompleted shard: 1 client: 2 write:true 2025-08-17 13:53:12.916
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:12.914
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-22] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+[grpc-default-executor-25] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [3] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@74d85645 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@5574286b
+observerAccumulator 11 shard 0
+observerMap[1] [3] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@44a1fda9 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@209e71fd
+observerAccumulator 12 shard 1
+headObserver.onCompleted shard: 1 client: 3 write:true 2025-08-17 13:53:13.338
+headObserver.onCompleted shard: 0 client: 3 write:true 2025-08-17 13:53:13.338
+headObserver.onCompleted shard: 0 client: 3 write:true 2025-08-17 13:53:13.339
+headObserver.onCompleted shard: 1 client: 3 write:true 2025-08-17 13:53:13.339
+sendReply.onError shard: 0 client: 3 write:true 2025-08-17 13:53:13.339
+[grpc-default-executor-24] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+sendReply.onError shard: 1 client: 3 write:true 2025-08-17 13:53:13.339
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-26] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)dumbObserver.onError shard: 0 client: 3 write:true 2025-08-17 13:53:13.34
+
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)dumbObserver.onError shard: 1 client: 3 write:true 2025-08-17 13:53:13.34
+
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)dumbObserver.onError shard: 0 client: 3 write:true 2025-08-17 13:53:13.34
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)dumbObserver.onError shard: 1 client: 3 write:true 2025-08-17 13:53:13.34
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:13.345
+[grpc-default-executor-20] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReplysendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:13.345
+
+[grpc-default-executor-22] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [1] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@584c9bb3 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@ef54e2
+observerMap[1] [1] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@2cb2fa71 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@4db692d4
+observerAccumulator 14 shard 0
+observerAccumulator 14 shard 1
+headObserver.onCompleted shard: 0 client: 1 write:true 2025-08-17 13:53:18.655
+headObserver.onCompleted shard: 0 client: 1 write:true 2025-08-17 13:53:18.655
+headObserver.onCompleted shard: 1 client: 1 write:true 2025-08-17 13:53:18.655
+headObserver.onCompleted shard: 1 client: 1 write:true 2025-08-17 13:53:18.655
+sendReply.onError shard: 0 client: 1 write:true 2025-08-17 13:53:18.656
+sendReply.onError shard: 1 client: 1 write:true 2025-08-17 13:53:18.656[grpc-default-executor-22] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+dumbObserver.onError shard: 0 client: 1 write:true 2025-08-17 13:53:18.656
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:18.656	at io.grpc.Status.asRuntimeException(Status.java:526)
+
+dumbObserver.onCompleted shard: 1 client: 1 write:true 2025-08-17 13:53:18.657
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:18.657
+
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+dumbObserver.onError shard: 0 client: 1 write:true 2025-08-17 13:53:18.656	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+dumbObserver.onError shard: 1 client: 1 write:true 2025-08-17 13:53:18.657	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-17] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+[grpc-default-executor-5] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-25] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [0] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@26ed59ed to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@1a987c1f
+observerMap[0] [0] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@1a987c1f to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@26ed59ed
+observerMap[1] [0] [1] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@25631a2b to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@32ea54
+observerAccumulator 15 shard 0
+observerAccumulator 16 shard 1
+headObserver.onCompleted shard: 1 client: 0 write:true 2025-08-17 13:53:34.888
+headObserver.onCompleted shard: 0 client: 0 write:true 2025-08-17 13:53:34.888
+headObserver.onCompleted shard: 0 client: 0 write:true 2025-08-17 13:53:34.888
+headObserver.onCompleted shard: 1 client: 0 write:true 2025-08-17 13:53:34.888
+sendReply.onError shard: 1 client: 0 write:true 2025-08-17 13:53:34.889
+sendReply.onError shard: 0 client: 0 write:true 2025-08-17 13:53:34.889[grpc-default-executor-5] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+
+[grpc-default-executor-25] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:34.89
+dumbObserver.onError shard: 1 client: 0 write:true 2025-08-17 13:53:34.89[grpc-default-executor-20] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+
+dumbObserver.onCompleted shard: 1 client: 0 write:true 2025-08-17 13:53:34.89
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+dumbObserver.onError shard: 0 client: 0 write:true 2025-08-17 13:53:34.89
+dumbObserver.onCompleted shard: 0 client: 0 write:true 2025-08-17 13:53:34.89	at io.grpc.Status.asRuntimeException(Status.java:526)
+
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 13:53:34.89	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-18] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[1] [2] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@ceedd77
+observerMap[1] [1] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@4e9331e8
+observerMap[1] [0] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@49e0772a
+observerMap[0] [3] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@265b134f
+observerAccumulator 17 shard 1
+observerAccumulator 18 shard 1
+observerAccumulator 19 shard 1
+observerAccumulator 20 shard 0
+observerMap[0] [2] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@661387d5
+observerAccumulator 21 shard 0
+observerMap[0] [0] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@77b710d9
+observerAccumulator 22 shard 0
+observerMap[0] [1] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@6cb3d91d
+observerMap[1] [3] [0] changes from null to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@3c1fc322
+observerAccumulator 23 shard 0
+observerAccumulator 24 shard 1
+observerMap[0] [0] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@77b710d9 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@64c4424b
+observerMap[1] [0] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@49e0772a to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@34742a5b
+observerAccumulator 26 shard 1
+observerAccumulator 26 shard 0
+tailObserver.onCompleted shard: 1 client: 0 write:false 2025-08-17 14:24:44.392
+tailObserver.onCompleted shard: 1 client: 0 write:false 2025-08-17 14:24:44.392
+tailObserver.onCompleted shard: 0 client: 0 write:false 2025-08-17 14:24:44.392
+tailObserver.onCompleted shard: 0 client: 0 write:false 2025-08-17 14:24:44.392
+sendReply.onError shard: 0 client: 0 write:false 2025-08-17 14:24:44.392
+[grpc-default-executor-5] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:44.393
+[grpc-default-executor-27] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+sendReply.onError shard: 1 client: 0 write:false 2025-08-17 14:24:44.393
+dumbObserver.onCompleted shard: 0 client: 0 write:false 2025-08-17 14:24:44.393
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+dumbObserver.onCompleted shard: 1 client: 0 write:false 2025-08-17 14:24:44.393
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-18] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+dumbObserver.onCompleted shard: 1 client: 0 write:false 2025-08-17 14:24:44.393	at io.grpc.Status.asRuntimeException(Status.java:526)
+
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+dumbObserver.onCompleted shard: 0 client: 0 write:false 2025-08-17 14:24:44.394
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:44.394
+[grpc-default-executor-29] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [2] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@661387d5 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@20520de2
+observerMap[1] [2] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@ceedd77 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@1aaf378c
+observerAccumulator 27 shard 0
+observerAccumulator 28 shard 1
+tailObserver.onCompleted shard: 0 client: 2 write:false 2025-08-17 14:24:46.507
+tailObserver.onCompleted shard: 1 client: 2 write:false 2025-08-17 14:24:46.507
+tailObserver.onCompleted shard: 0 client: 2 write:false 2025-08-17 14:24:46.507
+tailObserver.onCompleted shard: 1 client: 2 write:false 2025-08-17 14:24:46.507
+sendReply.onError shard: 0 client: 2 write:false 2025-08-17 14:24:46.507
+[grpc-default-executor-27] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelledsendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:46.507
+
+	at io.grpc.Status.asRuntimeException(Status.java:526)dumbObserver.onCompleted shard: 0 client: 2 write:false 2025-08-17 14:24:46.508
+
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:46.508	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)dumbObserver.onCompleted shard: 1 client: 2 write:false 2025-08-17 14:24:46.508
+
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+dumbObserver.onCompleted shard: 0 client: 2 write:false 2025-08-17 14:24:46.508
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-29] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+dumbObserver.onCompleted shard: 1 client: 2 write:false 2025-08-17 14:24:46.508
+[grpc-default-executor-30] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)sendReply.onError shard: 1 client: 2 write:false 2025-08-17 14:24:46.508
+
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-31] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [1] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@6cb3d91d to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@126d0784
+observerMap[1] [1] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@4e9331e8 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@dd550e1
+observerAccumulator 30 shard 0
+observerAccumulator 30 shard 1
+tailObserver.onCompleted shard: 0 client: 1 write:false 2025-08-17 14:24:48.438
+tailObserver.onCompleted shard: 0 client: 1 write:false 2025-08-17 14:24:48.438
+tailObserver.onCompleted shard: 1 client: 1 write:false 2025-08-17 14:24:48.438
+tailObserver.onCompleted shard: 1 client: 1 write:false 2025-08-17 14:24:48.438
+sendReply.onError shard: 0 client: 1 write:false 2025-08-17 14:24:48.438
+[grpc-default-executor-31] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+sendReply.onError shard: 1 client: 1 write:false 2025-08-17 14:24:48.438
+[grpc-default-executor-30] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+dumbObserver.onCompleted shard: 0 client: 1 write:false 2025-08-17 14:24:48.438
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:48.438
+
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)dumbObserver.onCompleted shard: 0 client: 1 write:false 2025-08-17 14:24:48.438
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+dumbObserver.onCompleted shard: 1 client: 1 write:false 2025-08-17 14:24:48.439	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-27] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+dumbObserver.onCompleted shard: 1 client: 1 write:false 2025-08-17 14:24:48.439
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:48.439
+[grpc-default-executor-33] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+observerMap[0] [3] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@265b134f to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@54df9c3d
+observerMap[1] [3] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@3c1fc322 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@460d9383
+observerMap[1] [3] [0] changes from io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@460d9383 to io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl@3c1fc322
+observerAccumulator 32 shard 0
+observerAccumulator 32 shard 1
+tailObserver.onCompleted shard: 0 client: 3 write:false 2025-08-17 14:24:51.791
+tailObserver.onCompleted shard: 1 client: 3 write:false 2025-08-17 14:24:51.791
+tailObserver.onCompleted shard: 0 client: 3 write:false 2025-08-17 14:24:51.791
+tailObserver.onCompleted shard: 1 client: 3 write:false 2025-08-17 14:24:51.791
+sendReply.onError shard: 0 client: 3 write:false 2025-08-17 14:24:51.791
+dumbObserver.onCompleted shard: 0 client: 3 write:false 2025-08-17 14:24:51.791[grpc-default-executor-32] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:51.791
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)dumbObserver.onCompleted shard: 0 client: 3 write:false 2025-08-17 14:24:51.792
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[grpc-default-executor-5] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+sendReply.onError shard: 1 client: 3 write:false 2025-08-17 14:24:51.792
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+dumbObserver.onCompleted shard: 1 client: 3 write:false 2025-08-17 14:24:51.792	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+sendReply.onError shard: -1 client: -1 write:false 2025-08-17 14:24:51.792	at java.base/java.lang.Thread.run(Thread.java:829)
+
+[grpc-default-executor-30] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+[grpc-default-executor-33] ERROR site.ycsb.db.rocksdb.Replicator - Encountered error in sendReply
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+dumbObserver.onCompleted shard: 1 client: 3 write:false 2025-08-17 14:24:51.792
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+io.grpc.StatusRuntimeException: CANCELLED: client cancelled
+	at io.grpc.Status.asRuntimeException(Status.java:526)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:284)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:844)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down

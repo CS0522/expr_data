@@ -1,0 +1,92 @@
+
+Node Configure: 
+    Node ID: 0
+    Node IP: 10.10.1.2
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 20
+    KVDB base path: /mnt/nofdb/rocksdb
+
+[INFO] Using RPC to make replicas
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+[INFO] RocksDB opened at: /mnt/nofdb/rocksdb0
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 0
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+[INFO] NoFDBKVS No.0 -- Server No.12 is listening on 0.0.0.0:50063
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.5 is listening on 0.0.0.0:50056
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+[INFO] NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+[INFO] NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+[INFO] NoFDBKVS No.0 -- Server No.13 is listening on 0.0.0.0:50064
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+[INFO] NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+[INFO] NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+[INFO] NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+[INFO] NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+[INFO] Node No.0 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 999998
+Total bytes: 1023997952
+Avg DB latency (us): 77.60, P90 (us): 106.93, P99 (us): 148.77, P99.9 (us): 333.85
+Avg process latency (us): 109.10, P90 (us): 178.37, P99 (us): 265.56, P99.9 (us): 667.59
+Avg CPU utilization (percent): 746.70
+Eplased time (sec): 15.17
+Throughput (MB/s): 64.39
+QPS (k): 65.94
+
+---------- RPC REPLICA STATISTICS ----------
+Avg all replicas latency (us): 172.88, P90 (us): 214.14, P99 (us): 319.31, P99.9 (us): 2035.08
+Avg local DB latency (us): 78.39, P90 (us): 108.06, P99 (us): 150.56, P99.9 (us): 322.29
+Avg send latency (us): 9217338750918770.00, P90 (us): 9223372036854308.00, P99 (us): 9223372036854352.00, P99.9 (us): 9223372036854412.00
+Avg receive latency (us): 225383091782.97, P90 (us): 563.24, P99 (us): 604.64, P99.9 (us): 648.49
+Avg remote process latency (us): 75.16
+
+
+===== Stage End =====
+
+Maintainer received STOP signal
+
+===== Transaction Statistics: 
+Total requests: 320622
+Total bytes: 328316928
+Avg DB latency (us): 1066452075994924.88, P90 (us): 6148914691236517.00, P99 (us): 9114861777597662.00, P99.9 (us): 9114861777597662.00
+Avg process latency (us): 91.27, P90 (us): 222.45, P99 (us): 319.60, P99.9 (us): 520.48
+Avg CPU utilization (percent): 245.71
+Eplased time (sec): 9.73
+Throughput (MB/s): 32.18
+QPS (k): 32.95
+
+===== Stage End =====
+
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 is shutting down......
+[INFO] CPU Monitor is shutting down......
+[INFO] Maintainer is shutting down......
