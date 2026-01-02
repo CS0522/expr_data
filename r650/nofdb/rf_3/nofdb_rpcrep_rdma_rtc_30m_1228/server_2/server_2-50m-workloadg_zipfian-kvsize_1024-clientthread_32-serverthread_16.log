@@ -1,0 +1,118 @@
+
+Node Configure: 
+    Node ID: 2
+    Node IP: 10.10.1.4
+    Listen IP: 0.0.0.0
+    Ports: 50051,50052,50053,50054,50055,50056,50057,50058,50059,50060,50061,50062,50063,50064,50065,50066
+    KVDB num (at start): 1
+    Server thread num (of each KVDB): 16
+    CPU cores num: 35
+    KVDB base path: /mnt/nofdb/rocksdb
+
+[INFO] Using RPC to make replicas
+[INFO] CPU monitor is enabled
+[INFO] Stats recorder is enabled
+
+Initiator is bound to core 3
+recover: before head 1216348160 before tail 1216348160
+recover: after_head 1216348160 after_tail 1216348160
+recover: before head 1216350208
+recover: after_head 1216350208
+recover: before head 1216546816
+recover: after_head 1216546816
+recover: before head 1216743424
+recover: after_head 1216743424
+[INFO] NoFDB opened successfully
+[INFO] NoFDBKVS No.0 initialized, belongs to node_id: 2
+[INFO] Tagged worker 1 is bound to core 5
+[INFO] Tagged worker 4 is bound to core 9
+[INFO] Tagged worker 2 is bound to core 7
+[INFO] Tagged worker 3 is bound to core 11
+[INFO] Tagged worker 5 is bound to core 13
+[INFO] Tagged worker 6 is bound to core 15
+[INFO] Tagged worker 0 is bound to core 3
+[INFO] Tagged worker 7 is bound to core 17
+[INFO] Tagged worker 8 is bound to core 19
+[INFO] Tagged worker 9 is bound to core 21
+[INFO] Tagged worker 10 is bound to core 23
+[INFO] Tagged worker 12 is bound to core 25
+[INFO] Tagged worker 11 is bound to core 27
+[INFO] Tagged worker 13 is bound to core 31
+[INFO] Tagged worker 14 is bound to core 29
+[INFO] Tagged worker 15 is bound to core 33
+[INFO] Tagged worker 16 is bound to core 35
+[INFO] NoFDBKVS No.0 -- Server No.9 is listening on 0.0.0.0:50060
+[INFO] NoFDBKVS No.0 -- Server No.7 is listening on 0.0.0.0:50058
+[INFO] NoFDBKVS No.0 -- Server No.14 is listening on 0.0.0.0:50065
+[INFO] NoFDBKVS No.0 -- Server No.11 is listening on 0.0.0.0:50062
+[INFO] NoFDBKVS No.0 -- Server No.1 is listening on 0.0.0.0:50052
+[INFO] NoFDBKVS No.0 -- Server No.2 is listening on 0.0.0.0:50053
+[INFO] NoFDBKVS No.0 -- Server No.6 is listening on 0.0.0.0:50057
+[INFO] NoFDBKVS No.0 -- Server No.0 is listening on 0.0.0.0:50051
+[INFO] NoFDBKVS No.0 -- Server No.15 is listening on 0.0.0.0:50066
+[INFO] NoFDBKVS No.0 -- Server No.12 is listening on 0.0.0.0:50063
+[INFO] NoFDBKVS No.0 -- Server No.3 is listening on 0.0.0.0:50054
+[INFO] NoFDBKVS No.0 -- Server No.5 is listening on 0.0.0.0:50056
+[INFO] NoFDBKVS No.0 -- Server No.4 is listening on 0.0.0.0:50055
+[INFO] NoFDBKVS No.0 -- Server No.8 is listening on 0.0.0.0:50059
+[INFO] NoFDBKVS No.0 -- Server No.10 is listening on 0.0.0.0:50061
+[INFO] NoFDBKVS No.0 -- Server No.13 is listening on 0.0.0.0:50064
+[INFO] Node No.2 Configure Table is generated
+[INFO] Maintainer is listening on 0.0.0.0:50050
+
+Maintainer received PAUSE signal
+
+===== Load Statistics: 
+Total requests: 29999998
+Total bytes: 30719997952
+Avg DB latency (us): 100.38, P90 (us): 13.36, P99 (us): 602.19, P99.9 (us): 17276.76
+Avg process latency (us): 183.07, P90 (us): 127.98, P99 (us): 2301.12, P99.9 (us): 20696.81
+Avg CPU utilization (percent): 1782.64
+Eplased time (sec): 577.71
+Throughput (MB/s): 50.71
+QPS (k): 51.93
+
+---------- RPC REPLICA STATISTICS ----------
+Avg all replicas latency (us): 347.02, P90 (us): 275.63, P99 (us): 9229.67, P99.9 (us): 26800.93
+Avg local DB latency (us): 98.93, P90 (us): 12.96, P99 (us): 599.31, P99.9 (us): 17232.81
+Avg send latency (us): 327.97, P90 (us): 350.41, P99 (us): 918.81, P99.9 (us): 2403.43
+Avg receive latency (us): 8926042570120833.00, P90 (us): 9223372036854574.00, P99 (us): 9223372036854678.00, P99.9 (us): 9223372036854762.00
+Avg remote process latency (us): 19.06
+
+
+===== Stage End =====
+
+Maintainer received STOP signal
+[INFO] CPU Monitor is shutting down......
+
+===== Transaction Statistics: 
+Total requests: 29999998
+Total bytes: 30719997952
+Avg DB latency (us): 55.20, P90 (us): 12.69, P99 (us): 178.14, P99.9 (us): 15155.31
+Avg process latency (us): 129.96, P90 (us): 121.76, P99 (us): 1461.43, P99.9 (us): 17090.65
+Avg CPU utilization (percent): 1772.66
+Eplased time (sec): 496.13
+Throughput (MB/s): 59.05
+QPS (k): 60.47
+
+===== Stage End =====
+
+[INFO] Stats recorder is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.4 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.10 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.6 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.3 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.9 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.14 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.11 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.15 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.8 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.2 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.0 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.12 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.7 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.5 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.13 is shutting down......
+[INFO] NoFDBKVS No.0 -- Server No.1 is shutting down......
+[INFO] NoFDBKVS No.0 is shutting down......
+[INFO] Maintainer is shutting down......
